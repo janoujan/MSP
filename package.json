@@ -1,0 +1,19 @@
+{
+  "name": "msp",
+  "version": "1.0.0",
+  "description": "site medical",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janoujan/MSP.git"
+  },
+  "author": "janoujan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janoujan/MSP/issues"
+  },
+  "homepage": "https://github.com/janoujan/MSP#readme"
+}
