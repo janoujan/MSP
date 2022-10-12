@@ -1,0 +1,36 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    @include center;
+    height: 50vh;
+    margin-bottom: 2vh;
+
+    &_image {
+        height: 25vh;
+        border: 3px solid #723D25;
+        border-radius: 100%;
+    }
+
+    &_title {
+        border-bottom: #723D25 3px solid;
+    }
+
+    &_presentation {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 668px) {
+    
+    .profile {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        width: 25%;
+        border: 1px solid red;
+    }
+}
+
+
+
+

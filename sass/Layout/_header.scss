@@ -58,7 +58,7 @@ nav a:hover {
 
 nav a:active {
     text-decoration: underline 5px;
-    
+
 }
 
 label,
@@ -76,7 +76,7 @@ label,
         flex-direction: column;
         background: $tertary_color;
         height: 14vh;
-        z-index: 100;
+        z-index: 10;
     }
 
     nav .main_pages a {
@@ -95,12 +95,21 @@ label,
 
     #toggle:checked+.main_pages {
         display: flex;
-        padding-top: 10;
-        height: 145px;
-        z-index: 100;
+        flex-wrap: nowrap;
+        backface-visibility: hidden;
+        backdrop-filter: blur(100px);
+        height: 250px;
+        z-index: 5;
     }
 
     #logo {
         width: 85%;
     }
 }
+
+
+
+
+
+
+
