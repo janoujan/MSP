@@ -72,6 +72,7 @@ label,
         flex-direction: column;
         background: $tertary_color;
         height: 14vh;
+        z-index: 100;
     }
     
     nav .main_pages a {

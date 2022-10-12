@@ -10,6 +10,7 @@ body {
 
 * {
   font-family: Inter, Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px white;
 }
 
 h1 {
@@ -89,6 +90,7 @@ label,
     flex-direction: column;
     background: #b7c9d3;
     height: 14vh;
+    z-index: 100;
   }
   nav .main_pages a {
     width: 50%;
@@ -123,12 +125,23 @@ label,
   z-index: -1;
 }
 
+h1 {
+  z-index: 0;
+}
+
 #presentation > p {
   width: 80%;
   padding: 5%;
+  margin-top: 0%;
   border: 1px solid black;
   border-radius: 40px;
-  box-shadow: 0px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 2px 2px #283d39;
+}
+
+#team {
+  background-color: #b7c9d3;
+  margin: 0%;
+  padding-top: 3vh;
 }
 
 /*# sourceMappingURL=style.css.map */
