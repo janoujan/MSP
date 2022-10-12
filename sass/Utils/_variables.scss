@@ -1,3 +1,6 @@
 $primary_color: #a0d1ca;
 $secondary_color:#8194dd;
 $tertary_color: #b7c9d3;
+$invert_primary_color: invert($primary_color);
+$invert_secondary_color: invert($secondary_color);
+$invert_tertary-color: invert($tertary_color);

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MSP Vabre Vals et Plateaux</title>
-     <!-- Open Graph data -->
-    <meta property="og:title" content="Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux" />
+    <meta name="description" content="lorem ipsum" />
+    <!-- Open Graph data -->
+    <meta
+      property="og:title"
+      content="Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://MSP-Vabre-Vals-et-Plateaux" />
     <meta property="og:image" content="images/logo.svg" />
@@ -14,62 +18,101 @@
       property="og:description"
       content="Infos pratiques et actualitées de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <!--normalize-->
     <link rel="stylesheet" href="css/normalize.css" />
-</head>
-<body>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <img src="img/logo.svg" alt="logo de la Maison de Santé Pluridisciplinaire Vabre Vals et plateaux">
-        <nav>
-            <a href="index.html" aria-label="lien vers l'Acceuil">Accueil</a>
-            <a href="pages/infos.html" aria-label="lien vers la page infos pratiques">Infos pratiques</a>
-            <a href="pages/actualités.html" aria-label="lien vers les actualites du site">Actualitées</a>
-            <a href="pages/liens.html" aria-label="lien vers les liens utiles">Liens utiles</a>         
-        </nav>
+      <a id="logo" href="index.html" aria-label="lien vers l'accueil">
+        <img
+          src="img/logo.svg"
+          alt="logo de la Maison de Santé Pluridisciplinaire Vabre Vals et plateaux"
+        />
+      </a>
+      <nav>
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle" />
+        <div class="main_pages">
+          <a href="index.html" aria-label="lien vers l'Acceuil">Accueil</a>
+          <a
+            href="pages/infos.html"
+            aria-label="lien vers la page infos pratiques"
+            >Infos pratiques</a
+          >
+          <a
+            href="pages/actualités.html"
+            aria-label="lien vers les actualites du site"
+            >Actualitées</a
+          >
+          <a href="pages/liens.html" aria-label="lien vers les liens utiles"
+            >Liens utiles</a
+          >
+        </div>
+        <!-- <label>☰</label> -->
+      </nav>
     </header>
     <main>
-        <div id="présentation" aria-label="présentation de la maison de santé">
-           <h1>Maison de Santé Pluridisciplinaire de Vabre Vals et Plateaux</h1>
-           <p>Situé en plein coeur du village de Vabre (à coté de l'eglise) la Maison de Santé Pluridisciplinaire est un véritable pôle de santé à l'échelle locale.<br>
-           Vous pouvez y consulter des medecins generalistes, une infirmiere ASALÉE, un Kinésitherapeute, une psychologue, et des services ambulatoires tel que.......</p>
+      <div id="presentation">
+        <h1>Maison de Santé Pluridisciplinaire de Vabre Vals et Plateaux</h1>
+        <p>
+          Situé en plein coeur de Vabre, la
+          Maison de Santé Pluridisciplinaire est un véritable pôle de santé à
+          l'échelle locale.<br />
+          Vous pouvez y consulter des medecins generalistes, des infirmiers et infirmiere ASALÉE, un kinésitherapeute, un dentiste, une pédicure - podologue et une sage-femme</p>
+      </div>
+      <div id="team">
+        <h2>Notre equipe</h2>
+        <div class="profil">
+          <img src="images/docteur_pistre.png" alt="Photo du Docteur Pistre" />
+          <h3>Docteur ... Pistre</h3>
+          <p>
+            diplomé de .... à .... en....<br />
+            Depuis x années le docteur Pistre recoit et consulte à domicile
+          </p>
+          <q>Lorem ipsum lorem ipsium</q>
         </div>
-        <div id="equipe" aria-label="présentation de l'équipe">
-            <h2>Notre equipe</h2>
-             <div class="vignette">
-                <img src="images/docteur_pistre.png" alt="Photo du Docteur Pistre">
-                <h3>Docteur ... Pistre</h3>
-                <p>diplomé de .... à .... en....<br>
-                Depuis x années le docteur Pistre recoit et consulte à domicile</p>
-                <q>Lorem ipsum lorem ipsium</q>
-             </div>
-             <div class="vignette">
-                <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu">
-                <h3>Docteur .... Cornu</h3>
-                <p>diplomé de .... à .... en....<br>
-                (incarne le renouveau bof bof)</p> 
-                <q>Lorem ipsum lorem ipsium</q>
-             </div>
-             <div class="vignette">
-                <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu">
-                <h3>Mme ....</h3>
-                <p>diplomé de .... à .... en....<br>
-                infirmiere ASALÉE</p>
-                <q>Lorem ipsum lorem ipsium</q>
-             </div>
-             <div class="vignette">
-                <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu">
-                <h3>Kinesithérapeute .... </h3>
-                <p>diplomé de .... à .... en....<br>
-                lorem ipsum bla bla</p>
-                <q>Lorem ipsum lorem ipsium</q>
-             </div><div class="vignette">
-                <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu">
-                <h3>Mme .... </h3>
-                <p>Secrétaire à votre service depuis...</p>
-                <q>Lorem ipsum lorem ipsium</q>
-             </div>
+        <div class="vignette">
+          <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu" />
+          <h3>Docteur .... Cornu</h3>
+          <p>
+            diplomé de .... à .... en....<br />
+            (incarne le renouveau bof bof)
+          </p>
+          <q>Lorem ipsum lorem ipsium</q>
         </div>
-    </main>   
-</body>
+        <div class="vignette">
+          <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu" />
+          <h3>Mme ....</h3>
+          <p>
+            diplomé de .... à .... en....<br />
+            infirmiere ASALÉE
+          </p>
+          <q>Lorem ipsum lorem ipsium</q>
+        </div>
+        <div class="vignette">
+          <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu" />
+          <h3>Kinesithérapeute ....</h3>
+          <p>
+            diplomé de .... à .... en....<br />
+            lorem ipsum bla bla
+          </p>
+          <q>Lorem ipsum lorem ipsium</q>
+        </div>
+        <div class="vignette">
+          <img src="images/docteur_cornu.png" alt="Photo du Docteur Cornu" />
+          <h3>Mme ....</h3>
+          <p>Secrétaire à votre service depuis...</p>
+          <q>Lorem ipsum lorem ipsium</q>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
-
