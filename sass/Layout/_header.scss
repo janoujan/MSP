@@ -4,7 +4,7 @@ header {
     justify-content: left;
     align-items: center;
     width: 100%;
-    height: 14vh;
+    height: 16vh;
     position: sticky;
     top: 0%;
     margin: 0%;
@@ -19,7 +19,7 @@ header {
     height: 100%;
     font-size: small;
     text-decoration: none;
-    border: 2px solid red;
+    // border: 2px solid red;
 }
 
 nav {
@@ -103,7 +103,7 @@ label,
     }
 
     #logo {
-        width: 85%;
+        width: 55%;
     }
 }
 
