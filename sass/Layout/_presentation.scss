@@ -4,24 +4,13 @@
     @include center;
     background-color: $secondary_color;
     z-index: 0;
+
+    &>p {
+        width: 80%;
+        padding: 5%;
+        margin-top: 2%;
+        border: 1px solid black;
+        border-radius: 40px;
+        box-shadow: 2px 2px 1px 2px #283d3931;
+    }
 }
-
-h1 {
-    z-index: 0;
-}
-
-#presentation>p {
-    width: 80%;
-    padding: 5%;
-    margin-top: -2%;
-    border: 1px solid black;
-    border-radius: 40px;
-    box-shadow: 2px 2px 1px 2px #283d3931;
-}
-
-
-
-
-
-
-

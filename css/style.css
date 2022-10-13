@@ -13,10 +13,6 @@ body {
   text-shadow: 1px 1px 2px white;
 }
 
-h1 {
-  font-weight: 900;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -46,13 +42,11 @@ nav {
   height: 14vh;
   background: #a0d1ca;
 }
-
 nav .main_pages {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 nav .main_pages a {
   width: 25%;
   display: flex;
@@ -74,9 +68,14 @@ nav a:hover {
   border-radius: 40px;
   box-shadow: 2px 3px 2px 2px rgba(88, 99, 104, 0.329);
 }
-
-nav a:active {
+nav a:hover:active {
   text-decoration: underline 5px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-left: 8%;
+  margin-top: 0%;
 }
 
 label,
@@ -116,9 +115,6 @@ label,
     height: 250px;
     z-index: 5;
   }
-  #logo {
-    width: 55%;
-  }
 }
 #presentation {
   display: flex;
@@ -128,15 +124,10 @@ label,
   background-color: #8194dd;
   z-index: 0;
 }
-
-h1 {
-  z-index: 0;
-}
-
 #presentation > p {
   width: 80%;
   padding: 5%;
-  margin-top: -2%;
+  margin-top: 2%;
   border: 1px solid black;
   border-radius: 40px;
   box-shadow: 2px 2px 1px 2px rgba(40, 61, 57, 0.1921568627);
@@ -181,8 +172,9 @@ h1 {
 @media all and (max-width: 668px) {
   .profile {
     display: flex;
+    flex-direction: row;
     flex: auto 1;
-    width: 100%;
+    width: 33%;
   }
 }
 

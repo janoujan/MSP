@@ -27,25 +27,27 @@ nav {
     width: 75%;
     height: 14vh;
     background: $primary_color;
+
+    & .main_pages {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        & a {
+            width: 25%;
+            display: flex;
+            @include center;
+            height: 7vh;
+            margin-top: 4vh;
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            font-weight: 900;
+        }
+    }
 }
 
-nav .main_pages {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-nav .main_pages a {
-    width: 25%;
-    display: flex;
-    @include center;
-    height: 7vh;
-    margin-top: 4vh;
-    text-decoration: none;
-    color: black;
-    font-size: larger;
-    font-weight: 900;
-}
 
 nav a:hover {
     border-bottom: 4px solid black;
@@ -54,11 +56,18 @@ nav a:hover {
     border-top: 2px solid black;
     border-radius: 40px;
     box-shadow: 2px 3px 2px 2px rgba(88, 99, 104, 0.329);
+
+    &:active {
+        text-decoration: underline 5px;
+
+    }
 }
 
-nav a:active {
-    text-decoration: underline 5px;
-
+h1 {
+    font-size: 1.3rem;
+    margin-left: 8%;
+    margin-top: 0%;
+    
 }
 
 label,
@@ -69,18 +78,18 @@ label,
 @media all and (max-width: 668px) {
     nav {
         height: 60px;
-    }
 
-    nav .main_pages {
-        display: none;
-        flex-direction: column;
-        background: $tertary_color;
-        height: 14vh;
-        z-index: 10;
-    }
+        & .main_pages {
+            display: none;
+            flex-direction: column;
+            background: $tertary_color;
+            height: 14vh;
+            z-index: 10;
 
-    nav .main_pages a {
-        width: 50%;
+            & a {
+                width: 50%;
+            }
+        }
     }
 
     label {
@@ -101,12 +110,7 @@ label,
         height: 250px;
         z-index: 5;
     }
-
-    #logo {
-        width: 55%;
-    }
 }
-
 
 
 
