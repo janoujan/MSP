@@ -48,12 +48,12 @@ nav .main_pages a {
 }
 
 nav a:hover {
-    border-bottom: 4px solid #723D25;
-    border-left: none;
-    border-right: 3px solid #723D25;
-    border-top: 2px solid #723D25;
+    border-bottom: 4px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-top: 2px solid black;
     border-radius: 40px;
-    box-shadow: 2px 3px 2px 2px grey;
+    box-shadow: 2px 3px 2px 2px rgba(88, 99, 104, 0.329);
 }
 
 nav a:active {
