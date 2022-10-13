@@ -28,8 +28,9 @@
 
     .profile {
         display: flex;
+        flex-direction: row;
         flex: auto  1;
-        width: 100%;
+        width: 33%;
     }
 }
 
