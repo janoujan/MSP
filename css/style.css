@@ -23,12 +23,12 @@ header {
   justify-content: left;
   align-items: center;
   width: 100%;
-  height: 16vh;
+  height: 17vh;
   position: sticky;
   top: 0%;
   margin: 0%;
   padding: 0%;
-  background-color: #b7c9d3;
+  background-color: #a0d1ca;
 }
 
 #logo {
@@ -44,7 +44,7 @@ nav {
   margin: 0%;
   width: 75%;
   height: 14vh;
-  background: #b7c9d3;
+  background: #a0d1ca;
 }
 
 nav .main_pages {
@@ -125,7 +125,7 @@ label,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #a0d1ca;
+  background-color: #8194dd;
   z-index: 0;
 }
 
