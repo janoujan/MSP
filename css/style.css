@@ -181,7 +181,7 @@ h1 {
 @media all and (max-width: 668px) {
   .profile {
     display: flex;
-    flex: 1;
+    flex: auto 1;
     width: 100%;
   }
 }
