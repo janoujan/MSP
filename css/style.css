@@ -166,7 +166,6 @@ label,
   text-decoration: underline solid 2px #8194dd;
 }
 #team > .profile_container {
-  border: green 1px solid;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -178,7 +177,6 @@ label,
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
   width: 49%;
   top: 0%;
 }
@@ -216,7 +214,6 @@ footer {
   background-color: #8194dd;
 }
 footer > a {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
