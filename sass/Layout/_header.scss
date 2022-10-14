@@ -67,7 +67,7 @@ h1 {
     font-size: 1.3rem;
     margin-left: 8%;
     margin-top: 0%;
-    
+
 }
 
 label,
@@ -76,15 +76,22 @@ label,
 }
 
 @media all and (max-width: 668px) {
+    header {
+        height: 27vh;
+
+    }
+
     nav {
         height: 60px;
 
         & .main_pages {
             display: none;
             flex-direction: column;
-            background: $tertary_color;
+            background: $primary_color;
             height: 14vh;
-            z-index: 10;
+            margin-top: -20%;
+            border: 4px solid $tertary_color;
+            border-top: none;
 
             & a {
                 width: 50%;
@@ -93,9 +100,11 @@ label,
     }
 
     label {
-        width: 15%;
+        position: relative;
+        top: -4vh;
         display: flex;
-        @include center;
+        justify-content: right;
+        width: 75%;
         margin: 0 auto;
         font-size: 2.5rem;
         color: black;
@@ -105,15 +114,21 @@ label,
     #toggle:checked+.main_pages {
         display: flex;
         flex-wrap: nowrap;
-        backface-visibility: hidden;
-        backdrop-filter: blur(100px);
         height: 250px;
-        z-index: 5;
+
+        &+h1 {
+            display: none;
+        }
+    }
+
+    #logo {
+        border: 1px solid red;
+        width: 40%;
+    }
+
+    h1 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: -4vh;
     }
 }
-
-
-
-
-
-

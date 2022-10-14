@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary_color;
+    
+    &>a {
+        border: 2px solid red;
+        display: flex;
+        @include center;
+        margin: 0%;
+    }
+
+    &>h3 {
+        display: flex;
+       @include center;
+    }
+}

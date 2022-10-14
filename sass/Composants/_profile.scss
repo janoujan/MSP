@@ -1,36 +1,44 @@
 .profile {
     display: flex;
     flex-direction: column;
-    @include center;
-    height: 50vh;
-    margin-bottom: 2vh;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid red;
+    width: 49%;
+    top: 0%;
 
     &_image {
-        height: 25vh;
-        border: 2px solid $primary_color;
+        object-fit: contain;
+        width: 150px;
         border-radius: 100%;
+        border: 2px solid $primary_color;
     }
 
     &_title {
-        border-bottom: $primary_color 2px solid;
+        text-decoration: underline solid $secondary_color 4px;
+        font-size: x-large;
     }
 
-    &_presentation {
-        margin-top: 0;
+    &_profession {
+        font-size: large;
+        margin: 0%;
     }
-}
 
+    &_convention {
+        font-style: italic;
+        font-size: 0.9rem;
+    }
 
-
-
-
-@media all and (max-width: 668px) {
-
-    .profile {
-        display: flex;
-        flex-direction: row;
-        flex: auto  1;
-        width: 33%;
+    &_openingTime>span {
+        text-decoration: underline solid $secondary_color 4px;
+        font-weight: 900;
+        font-style:oblique;
+        font-size: large;
+    }
+    
+    &_openingTime+p {
+        border: 2px solid red;
+        
     }
 }
 
