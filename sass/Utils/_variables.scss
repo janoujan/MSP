@@ -8,6 +8,14 @@ $invert_secondary_color: invert($secondary_color);
 $invert_tertary-color: invert($tertary_color);
 // #48362c
 
+// media queries
+$breakpoints: (tablet_min: 768.6px,
+    tablet_max: 1279.5px,
+    desktop: 1279.6px,
+    ultraHD: 2450px,
+);
+
+
 
 
 

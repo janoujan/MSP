@@ -1,11 +1,17 @@
-html {
+* {
     box-sizing: border-box;
-    // overflow-x: hidden;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
 }
 
 body {
     width: 100%;
     height: 100%;
+    max-width: 2200px;
     margin: 0px;
 }
 
