@@ -131,6 +131,48 @@ label {
   display: none;
 }
 
+@media screen and (min-width: 1280px) {
+  header {
+    height: 180px;
+  }
+  label {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation_title {
+    font-size: 1.8rem;
+    width: 100%;
+    top: 20px;
+    padding-bottom: 10px;
+  }
+  .navigation_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300%;
+    height: 100%;
+    margin-left: -100%;
+    border: none;
+  }
+  .navigation_link > a:hover {
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    box-shadow: 1px 3px 2px 2px rgb(109, 163, 147);
+    border-radius: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+}
 #presentation {
   display: flex;
   flex-direction: column;
@@ -180,7 +222,7 @@ label {
   object-fit: contain;
   width: 150px;
   border-radius: 100%;
-  border: 2px solid #a0d1ca;
+  border: 4px solid #a0d1ca inset, 2px solid #8194dd outset;
 }
 .profile_title {
   text-decoration: underline solid #8194dd 4px;
@@ -199,11 +241,7 @@ label {
   font-weight: 900;
   font-style: oblique;
   font-size: large;
-  border: 1px solid red;
   margin-bottom: 100%;
-}
-.profile_openingTime + p {
-  border: 2px solid red;
 }
 
 footer {

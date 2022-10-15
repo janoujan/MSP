@@ -9,9 +9,9 @@ $invert_tertary-color: invert($tertary_color);
 // #48362c
 
 // media queries
-$breakpoints: (tablet_min: 768.6px,
-    tablet_max: 1279.5px,
-    desktop: 1279.6px,
+$breakpoints: (tablet_min: 770px,
+    tablet_max: 1279px,
+    desktop: 1280px,
     ultraHD: 2450px,
 );
 
