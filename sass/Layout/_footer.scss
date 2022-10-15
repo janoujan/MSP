@@ -2,25 +2,21 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: $secondary_color;
-    
+
     &>a {
         display: flex;
         @include center;
         margin: 0%;
-    
+
         &>img {
-            height: 100px ;
-                width: 30%;
+            height: 100px;
+            width: 90%;
+            padding-top: 20px;
         }
     }
 
     &>h3 {
         display: flex;
-       @include center;
+        @include center;
     }
 }
-
-
-
-
-
