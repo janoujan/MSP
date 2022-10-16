@@ -32,7 +32,7 @@ header {
   align-items: center;
   width: 100%;
   height: 150px;
-  position: sticky;
+  position: fixed;
   top: 0%;
   margin: 0%;
   padding: 0%;
@@ -132,7 +132,7 @@ label {
   display: none;
 }
 
-@media screen and (min-width: 1280px) {
+@media (min-width: 770px) and (max-width: 1279px) {
   header {
     height: 180px;
   }
@@ -214,7 +214,7 @@ label {
 .profile {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   width: 48%;
   top: 0%;
@@ -230,7 +230,7 @@ label {
   object-fit: contain;
   width: 150px;
   border-radius: 100%;
-  border: 4px solid #a0d1ca inset, 2px solid #8194dd outset;
+  border: 1px #8194dd solid;
 }
 .profile_title {
   text-decoration: underline solid #8194dd 4px;
@@ -244,7 +244,7 @@ label {
   font-style: italic;
   font-size: 0.9rem;
 }
-.profile_openingTime > span {
+.profile_openingTime > h5 {
   text-decoration: underline solid #8194dd 4px;
   font-weight: 900;
   font-style: oblique;

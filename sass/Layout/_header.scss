@@ -1,74 +1,3 @@
-// header {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: left;
-//     align-items: center;
-//     width: 100%;
-//     height: 17vh;
-//     position: sticky;
-//     top: 0%;
-//     margin: 0%;
-//     padding: 0%;
-//     background-color: $primary_color;
-// }
-
-// #logo {
-//     justify-content: left;
-//     align-items: center;
-//     width: 25%;
-//     height: 100%;
-//     font-size: small;
-//     text-decoration: none;
-//     // border: 2px solid red;
-// }
-
-// nav {
-//     margin: 0%;
-//     width: 75%;
-//     height: 14vh;
-//     background: $primary_color;
-
-//     & .main_pages {
-//         display: flex;
-//         justify-content: space-around;
-//         align-items: center;
-
-//         & a {
-//             width: 25%;
-//             display: flex;
-//             @include center;
-//             height: 7vh;
-//             margin-top: 4vh;
-//             text-decoration: none;
-//             color: black;
-//             font-size: larger;
-//             fo
-
-
-// nav a:hover {
-//     border-bottom: 4px solid black;
-//     border-left: 1px solid black;
-//     border-right: 3px solid black;
-//     border-top: 2px solid black;
-//     border-radius: 40px;
-//     box-shadow: 2px 3px 2px 2px rgba(88, 99, 104, 0.329);
-
-//     &:active {
-//         text-decoration: underline 5px;
-
-//     }
-// }
-
-// h1 {
-//     font-size: 1.3rem;
-//     margin-left: 8%;
-//     margin-top: 0%;
-
-// }
-
-// label,
-
-
 header {
     display: flex;
     flex-direction: row;
@@ -76,7 +5,7 @@ header {
     align-items: center;
     width: 100%;
     height: 150px;
-    position: sticky;
+    position: fixed;
     top: 0%;
     margin: 0%;
     padding: 0%;
@@ -181,9 +110,7 @@ label {
     display: none;
 }
 
-@include tablet;
-@include desktop {
-    
+@include tablet {
     header{
         height: 180px;
     }
