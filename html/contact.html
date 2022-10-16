@@ -9,15 +9,13 @@
     <!-- Open Graph data -->
     <meta
       property="og:title"
-      content="Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux"
-    >
+      content="Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://MSP-Vabre-Vals-et-Plateaux">
     <meta property="og:image" content="images/logo.svg">
     <meta
       property="og:description"
-      content="Infos pratiques et actualitées de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux"
-    >
+      content="Infos pratiques et actualitées de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux">
     <link rel="stylesheet" href="/css/style.css">
     <!--normalize-->
     <link rel="stylesheet" href="/css/normalize.css">
@@ -26,41 +24,87 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    >
+      rel="stylesheet">
   </head>
   <header>
-      <a class="logo" href="index.html" aria-label="lien vers l'accueil">
-        <img
+    <a class="logo" href="index.html" aria-label="lien vers l'accueil">
+      <img
         class="logo_svg"
-        src="images/logo.1.svg"
-        width="90" 
-        height="105" 
-        alt="logo de la Maison de Santé Pluridisciplinaire Vabre Vals et plateaux"
-        > 
-      </a>
-        <div class="navigation">  
-          <h1 class="navigation_title">Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux</h1>
-          <nav class="navigation_bar">
-            <label for="toggle">☰</label>
-            <input type="checkbox" id="toggle">
-            <div class="navigation_link">
-              <a href="index.html" aria-label="lien vers l'Acceuil">Accueil</a>
-              <a
-              href="pages/contact.html"
-              aria-label="lien vers la page contact"
-              >Infos &<br>Contact
-              </a>
-              <a
-              href="pages/actualités.html"
-              aria-label="lien vers les actualites du site"
-              >Actus</a
-              >
-              <a href="pages/liens.html" aria-label="lien vers les liens utiles"
-              >Liens utiles</a
-              >
-            </div>
-          </nav>
+        src="/images/logo.1.svg"
+        width="90"
+        height="105"
+        alt="logo de la Maison de Santé Pluridisciplinaire Vabre Vals et plateaux">
+    </a>
+    <div class="navigation">
+      <h1 class="navigation_title">
+        Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux
+      </h1>
+      <nav class="navigation_bar">
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle">
+        <div class="navigation_link">
+          <a href="index.html" aria-label="lien vers l'Acceuil">Accueil</a>
+          <a href="html/contact.html" aria-label="lien vers la page contact"
+            >Infos &<br>Contact
+          </a>
+          <a
+            href="html/actualités.html"
+            aria-label="lien vers les actualites du site"
+            >Actus</a
+          >
+          <a href="html/liens.html" aria-label="lien vers les liens utiles"
+            >Liens utiles</a
+          >
         </div>
-    </header>
-    
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Infos & Contact</h1>
+    <div class="map">
+      <h2 class="map_title">Où nous trouver ?</h2>
+      <iframe
+        class="map_frame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.843443007707!2d2.4224076149542837!3d43.693018057874006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ae01815df2eb85%3A0xd0b2412b97f5e4!2s5%20Pl.%20du%20Maquis%2C%2081330%20Vabre!5e0!3m2!1sfr!2sfr!4v1665933921228!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h3 class="map_place">
+        Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux
+      </h3>
+      <p class="map_adress">5 Place du Maquis<br>81330 Vabre</p>
+      <a href="mailto:zanamalata@hotmail.com" class="map_contact"></a>
+    </div>
+    <div class="agenda">
+      <h2 class="agenda_title">Agenda des medecins généralistes</h2>
+      <p class="agenda_caption">Dr. Pistre et Dr. Cornu</p>
+      <iframe
+        class="agenda_frame"
+        src="https://calendar.google.com/calendar/embed?height=540&wkst=2&bgcolor=%2333B679&ctz=Europe%2FParis&showNav=1&showDate=1&showPrint=0&showCalendars=0&showTz=0&mode=WEEK&showTitle=0&src=ZTMzMjc0MjU2ODRmODY1Y2MwNzViNzBjOTZlYzAzNDM2MjkwZTVjYjkzN2Q0ZDk5MDQ0NTYwMTlmYmFmNGYzY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23009688"
+        style="border: solid 1px #777"
+        width="999"
+        height="540"
+        ></iframe>
+      <h2 class="agenda_title">Agenda des autres practiciens</h2>
+      <p class="agenda_caption">
+        Dentiste, Kinésithérapeute, Sage-femme, Pedicure - Podologue,
+        Infirmier.ières<br>
+        <span>Sur rendez-vous</span>
+      </p>
+
+      <iframe
+        class="agenda_frame"
+        src="https://calendar.google.com/calendar/embed?height=450&wkst=2&bgcolor=%23B39DDB&ctz=Europe%2FParis&showTitle=0&showPrint=0&showCalendars=0&showTz=0&mode=WEEK&src=MzIwOGRmODY2YTc3NGVlOGRhNDIwYmY4Zjg5NDhjODNkZWUwN2IxYjkzZjIxMDA2NjZmZTY5MWMzOGU2MmZlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E&color=%230B8043"
+        style="border: solid 1px #777"
+        width="999"
+        height="450"
+        ></iframe>
+    </div>
+  </main>
+</html>
+
+
+
