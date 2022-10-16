@@ -1,0 +1,35 @@
+.agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-bottom: 60px;
+
+    &_title {
+        margin-left: 20px;
+    }
+
+    &_caption {
+        margin-left: 20px;
+    }
+
+    &_frame {
+        margin-left: 20px;
+        width: 333px;
+        height: 333px;
+        border: 2px solid $secondary_color;
+        border-radius: 20px;
+        box-shadow: 2px 3px 2px 2px #6374b642;
+    }
+}
+
+@include tablet {
+    .agenda {
+
+        &_frame {
+            width: 650px;
+            height: 500px;
+        }
+    }
+}

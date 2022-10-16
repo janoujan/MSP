@@ -1,0 +1,43 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+    &_title {
+        margin-left: 20px;
+    }
+
+    &_frame {
+        width: 333px;
+        height: 333px;
+        margin-left: 20px;
+        border: 2px $secondary_color solid;
+        border-radius: 20px;
+        box-shadow: 2px 3px 2px 2px #6374b642;
+
+    }
+
+    &_place {
+        margin-left: 20px;
+    }
+
+    &_adress {
+        margin-left: 20px;
+
+        &+a {
+            margin-left: 20px;
+        }
+    }
+}
+
+@include tablet {
+   .map {
+
+    &_frame {
+        width: 650px;
+        height: 500px;
+    }
+   }   
+}

@@ -382,4 +382,87 @@ footer > h1 {
   font-size: x-large;
 }
 
+.main_contact {
+  position: relative;
+  top: 125px;
+  background-color: #b7c9d3;
+  z-index: -1;
+}
+.main_contact > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+@media (min-width: 770px) and (max-width: 1279px) {
+  .main_contact {
+    top: 150px;
+  }
+}
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.map_title {
+  margin-left: 20px;
+}
+.map_frame {
+  width: 333px;
+  height: 333px;
+  margin-left: 20px;
+  border: 2px #8194dd solid;
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 2px rgba(99, 116, 182, 0.2588235294);
+}
+.map_place {
+  margin-left: 20px;
+}
+.map_adress {
+  margin-left: 20px;
+}
+.map_adress + a {
+  margin-left: 20px;
+}
+
+@media (min-width: 770px) and (max-width: 1279px) {
+  .map_frame {
+    width: 650px;
+    height: 500px;
+  }
+}
+.agenda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+}
+.agenda_title {
+  margin-left: 20px;
+}
+.agenda_caption {
+  margin-left: 20px;
+}
+.agenda_frame {
+  margin-left: 20px;
+  width: 333px;
+  height: 333px;
+  border: 2px solid #8194dd;
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 2px rgba(99, 116, 182, 0.2588235294);
+}
+
+@media (min-width: 770px) and (max-width: 1279px) {
+  .agenda_frame {
+    width: 650px;
+    height: 500px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
