@@ -27,19 +27,36 @@
 
     &_profession {
         font-size: large;
+        font-weight: 900;
         margin: 0%;
     }
 
     &_convention {
         font-style: italic;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
-    &_openingTime>h5 {
+    &_openingTime {
         text-decoration: underline solid $secondary_color 4px;
         font-weight: 900;
         font-style: oblique;
-        font-size: large;
-        margin-bottom: 100%;
+        font-size: larger;
+        margin-bottom: 0;
+        
+    }
+}
+
+@include desktop {
+    .profile {
+        width: 30%;
+    }
+}
+@include ultraHD {
+    .profile{
+        height: auto;
+
+        &_image {
+            height: 150px;
+        }
     }
 }

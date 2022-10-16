@@ -174,23 +174,106 @@ label {
     text-decoration: none;
   }
 }
+@media screen and (min-width: 1280px) {
+  header {
+    height: 180px;
+  }
+  label {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation_title {
+    font-size: 1.8rem;
+    width: 100%;
+    top: 20px;
+    padding-bottom: 10px;
+  }
+  .navigation_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300%;
+    height: 100%;
+    margin-left: -100%;
+    border: none;
+  }
+  .navigation_link > a:hover {
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    box-shadow: 1px 3px 2px 2px rgb(109, 163, 147);
+    border-radius: 40px;
+    padding: 3%;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  .navigation_link > a:active {
+    text-decoration: underline solid 5px black;
+  }
+}
+@media screen and (min-width: 2450px) {
+  .navigation_title {
+    font-size: 2.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation_link > a {
+    font-size: 2rem;
+  }
+  .navigation_link > a:hover {
+    padding: 2%;
+  }
+}
 #presentation {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
   background-color: #8194dd;
-  z-index: 0;
 }
 #presentation > p {
   width: 80%;
   padding: 5%;
-  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #a0d1ca;
   border-radius: 40px;
   box-shadow: 2px 2px 1px 2px rgba(40, 61, 51, 0.4666666667);
 }
 
+@media (min-width: 770px) and (max-width: 1279px) {
+  #presentation {
+    margin-top: 180px;
+  }
+  #presentation > p {
+    padding: 3%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #presentation {
+    margin-top: 180px;
+  }
+  #presentation > p {
+    padding: 2%;
+  }
+}
+@media screen and (min-width: 2450px) {
+  #presentation > p {
+    height: max-content;
+    padding: 1%;
+    text-align: center;
+    border: none;
+    font-size: 1.8rem;
+  }
+}
 #team {
   display: flex;
   flex-direction: column;
@@ -211,6 +294,15 @@ label {
   margin-top: 0%;
 }
 
+@media screen and (min-width: 2450px) {
+  #team > h2 {
+    font-size: 2.8rem;
+  }
+  #team > .profile_container {
+    margin-bottom: 2%;
+    height: 1600px;
+  }
+}
 .profile {
   display: flex;
   flex-direction: column;
@@ -238,23 +330,38 @@ label {
 }
 .profile_profession {
   font-size: large;
+  font-weight: 900;
   margin: 0%;
 }
 .profile_convention {
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
-.profile_openingTime > h5 {
+.profile_openingTime {
   text-decoration: underline solid #8194dd 4px;
   font-weight: 900;
   font-style: oblique;
-  font-size: large;
-  margin-bottom: 100%;
+  font-size: larger;
+  margin-bottom: 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .profile {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 2450px) {
+  .profile {
+    height: auto;
+  }
+  .profile_image {
+    height: 150px;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: #8194dd;
 }
 footer > a {
@@ -268,10 +375,12 @@ footer > a > img {
   width: 90%;
   padding-top: 20px;
 }
-footer > h3 {
+footer > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 900;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=style.css.map */

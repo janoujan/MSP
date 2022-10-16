@@ -1,8 +1,9 @@
 footer {
     display: flex;
     flex-direction: column;
+    position: relative;
     background-color: $secondary_color;
-
+    
     &>a {
         display: flex;
         @include center;
@@ -15,8 +16,12 @@ footer {
         }
     }
 
-    &>h3 {
+    &>h1 {
         display: flex;
         @include center;
+        font-weight: 900;
+        font-size: x-large;
     }
 }
+
+
