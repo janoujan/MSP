@@ -12,24 +12,71 @@
 
     &_caption {
         margin-left: 20px;
+        margin-top: 0;
     }
-
-    &_frame {
-        margin-left: 20px;
-        width: 333px;
-        height: 333px;
-        border: 2px solid $secondary_color;
+    
+    &_table {
+        border: $border_secondary_color 10px solid;
         border-radius: 20px;
-        box-shadow: 2px 3px 2px 2px #6374b642;
+        background-color: $tertary_color;
+        width: 70%;
+    }
+
+    &_solo {
+        display: flex;
+        flex-direction: column;
+        @include center;
+        background-color: $tertary_color;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid $border_tertary_color;
+        border-radius: 20px;
+        width: 80%;
     }
 }
 
-@include tablet {
-    .agenda {
-
-        &_frame {
-            width: 650px;
-            height: 500px;
-        }
-    }
+table {
+    border-collapse: collapse;
 }
+
+th,
+tr {
+    border: 1px solid black;
+}
+
+.day {
+    background-color: $primary_color;
+}
+
+.half_day {
+    background-color: #ABC3D1;
+}
+
+.cornu {
+    background-color: #97D1A7;
+}
+
+.pistre {
+    background-color: #D1B48C;
+}
+
+.yellow {
+    background-color: #D1B6B6;
+}
+
+#top_left {
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

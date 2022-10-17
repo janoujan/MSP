@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 48%;
+    width: 45%;
     top: 0%;
     margin: auto;
     margin-top: 0;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 40px;
-    border: 1px solid $secondary_color;
-    box-shadow: 2px 3px 2px 1px #6f7eb833;
+    border: 2px solid $border_tertary_color;
+    background-color: $tertary_color;
+    box-shadow: 2px 3px 2px 1px #4b424b23;
 
     &_image {
         object-fit: contain;
@@ -21,12 +22,11 @@
     }
 
     &_title {
-        text-decoration: underline solid $secondary_color 4px;
-        font-size: x-large;
+        font-size: 1.8rem;
     }
 
     &_profession {
-        font-size: large;
+        font-size: 1.4rem;
         font-weight: 900;
         margin: 0%;
     }
@@ -37,13 +37,16 @@
     }
 
     &_openingTime {
-        text-decoration: underline solid $secondary_color 4px;
         font-weight: 900;
         font-style: oblique;
         font-size: larger;
         margin-bottom: 0;
-        
+
     }
+}
+
+#kine {
+    font-size: 1.2rem;
 }
 
 @include desktop {
@@ -51,8 +54,9 @@
         width: 30%;
     }
 }
+
 @include ultraHD {
-    .profile{
+    .profile {
         height: auto;
 
         &_image {

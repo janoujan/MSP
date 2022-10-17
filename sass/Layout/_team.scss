@@ -3,13 +3,12 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    background-color: $tertary_color;
+    background-color: $secondary_color;
     
 
     &>h2 {
         display: flex;
         @include center;
-        text-decoration: underline solid 2px $secondary_color;
     }
 
     &>.profile_container {

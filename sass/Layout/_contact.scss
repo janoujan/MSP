@@ -1,8 +1,10 @@
 .main_contact {
     position: relative;
-    top: 125px;
-    background-color: $tertary_color;
+    top: 95px;
+    padding-bottom: 10px;
+    background-color: $secondary_color;
     z-index: -1;
+
 
     &>h1 {
         display: flex;
@@ -12,8 +14,8 @@
     }
 }
 
-@include tablet {
-    .main_contact {
-        top: 150px;
-    }
-}
+
+
+
+
+
