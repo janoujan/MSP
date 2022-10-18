@@ -8,7 +8,8 @@ footer {
     &>a {
         display: flex;
         @include center;
-        margin: 0%;
+        margin:auto;
+        width: 15%;
 
         &>img {
             height: 100px;
@@ -31,4 +32,8 @@ footer {
 
 .italic {
     font-style: italic;
+}
+
+#footer_mailbox {
+    color: rgb(116, 6, 6);
 }

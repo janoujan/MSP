@@ -1,0 +1,9 @@
+#links_title {
+    display: flex;
+    @include center;
+    position: relative;
+    top: 120px;
+    font-size: 2.2rem;
+    z-index: -1;
+}
+

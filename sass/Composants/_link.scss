@@ -1,0 +1,44 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+    @include center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: $tertary_color;
+    border: 2px solid $border_tertary_color;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px 1px #4b424b23;
+    z-index: -1;
+
+    &_article {
+        width: 100%;
+    }
+
+    &_title {
+        margin-left: 20px;
+    }
+
+    &_text {
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    &_aside {
+        display: flex;
+        flex-direction: column;
+        @include center;
+    }
+    
+    &_frame {
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    &_aside_link {
+        margin-left: 20px;
+    }
+}
