@@ -395,6 +395,9 @@ footer > h1 {
   font-weight: 900;
   font-size: x-large;
 }
+footer > p {
+  margin-left: 20px;
+}
 
 .italic {
   font-style: italic;
@@ -465,10 +468,10 @@ footer > h1 {
   margin-top: 0;
 }
 .agenda_table {
+  width: min-content;
   border: #59857E 10px solid;
   border-radius: 20px;
   background-color: #D1C28C;
-  width: 70%;
 }
 .agenda_solo {
   display: flex;
@@ -480,11 +483,13 @@ footer > h1 {
   padding: 20px;
   border: 2px solid #857D5F;
   border-radius: 20px;
-  width: 80%;
+  width: 95%;
 }
 
 table {
   border-collapse: collapse;
+  overflow-x: auto;
+  width: min-content;
 }
 
 th,

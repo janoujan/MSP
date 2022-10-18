@@ -16,12 +16,14 @@
     }
     
     &_table {
+        width: min-content;
         border: $border_secondary_color 10px solid;
         border-radius: 20px;
         background-color: $tertary_color;
-        width: 70%;
+        
+        
     }
-
+    
     &_solo {
         display: flex;
         flex-direction: column;
@@ -31,12 +33,15 @@
         padding: 20px;
         border: 2px solid $border_tertary_color;
         border-radius: 20px;
-        width: 80%;
+        width: 95%;
+        
     }
 }
 
 table {
     border-collapse: collapse;
+    overflow-x: auto;
+    width: min-content;
 }
 
 th,
