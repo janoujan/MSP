@@ -9,6 +9,7 @@
     &>h2 {
         display: flex;
         @include center;
+        font-size: 2rem;
     }
 
     &>.profile_container {

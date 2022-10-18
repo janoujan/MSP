@@ -295,6 +295,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 }
 #team > .profile_container {
   display: flex;
@@ -410,12 +411,83 @@ footer > p {
   background-color: #D1B6D1;
   z-index: -1;
 }
-.main_contact > h1 {
+
+#contact_title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
   font-weight: 900;
+  font-size: 2rem;
+}
+
+body {
+  background-color: #D1B6D1;
+}
+
+#actus_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px;
+  font-size: 2.3rem;
+  z-index: -1;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 70px;
+  height: max-content;
+  background-color: #D1C28C;
+  border: 2px solid #857D5F;
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 1px rgba(75, 66, 75, 0.137254902);
+  z-index: -1;
+}
+.information_article {
+  width: 75%;
+  background-color: #D1C28C;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.information_title {
+  font-weight: 900;
+  font-size: 1.9rem;
+}
+.information_subtitle {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.information_text {
+  font-size: 1.1rem;
+}
+.information_aside {
+  width: 50%;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid #857D5F;
+  border-radius: 20px;
+}
+.information_figure {
+  border-radius: 20px;
+  margin: 0;
+}
+.information_image {
+  object-fit: contain;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.information_caption {
+  margin-left: 20px;
 }
 
 .map {
@@ -519,6 +591,10 @@ tr {
 
 #top_left {
   border-radius: 100%;
+}
+
+#footer_actus {
+  top: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

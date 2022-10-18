@@ -4,18 +4,12 @@
     padding-bottom: 10px;
     background-color: $secondary_color;
     z-index: -1;
-
-
-    &>h1 {
-        display: flex;
-        @include center;
-        padding-top: 20px;
-        font-weight: 900;
-    }
 }
 
-
-
-
-
-
+#contact_title {
+    display: flex;
+    @include center;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 2rem;
+}
