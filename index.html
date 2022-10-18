@@ -18,9 +18,6 @@
       property="og:description"
       content="Infos pratiques et actualitées de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux"
     >
-    <!--normalize-->
-    <link rel="stylesheet" href="./css/normalize.css">
-    
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +25,16 @@
     href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
     rel="stylesheet"
     >
+    
+    <!--normalize-->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+    
+   <!-- fontawesome's script -->
+    <script src="https://kit.fontawesome.com/b96dc2a7f8.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
@@ -68,11 +74,11 @@
     <main>
       <div class="presentation">
         <figure class="presentation_figure">
-          <img class="presentation_image" src="./images/msp facade.jpg" alt="photo de La MSP Vabre Vals et Plateaux"></figure>
-        <figcaption class="presentation_figcaption">Bienvenue à la <strong>Maison de Santé Pluridisciplinaire
+          <img class="presentation_image" src="./images/msp_facade.jpg" alt="photo de La MSP Vabre Vals et Plateaux"></figure>
+        <div class="presentation_figcaption">Bienvenue à la <strong>Maison de Santé Pluridisciplinaire</strong>
           Vabre Vals et Plateaux, nous sommes un pôle de santé à l'échelle locale. Située au centre de Vabre<br>
           Ici, vous pouvez consulter des medecins generalistes, un kinésithérapeute, un dentiste, une pédicure -
-          podologue, une sage-femme, une infirmiere ASALÉE et des soins à domicile sur rendez-vous</figcaption> 
+          podologue, une sage-femme, une infirmiere ASALÉE et des soins à domicile sur rendez-vous</div> 
       </div>
       <div id="team">
         <h2>Notre équipe</h2>
@@ -224,17 +230,23 @@
           </div>
       </div>    
     </main>
-    <footer>
+    <footer class="footer">
      <a href="index.html" aria-label="lien vers la page d'Accueil">
       <img src="images/logo.2.svg" alt="logo de la Maison de Santé pluridisciplinaire Vabre Vals et Plateaux"
       width="150" height="100"
      >
      </a>
      <h1>Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux</h1>
-     <p>5 Place du Maquis<br>
-      81330 Vabre<br>
-      Téléphone: 05 63 50 40 18<br>
-      Adresse email: 
+     <p class="footer_address">
+       <i class="fa-solid fa-location-dot"></i>
+      5 Place du Maquis<br>
+      81330 Vabre</p>
+     <p class="footer_phone">
+      <i class="fa-solid fa-phone"></i>
+      Téléphone: 05 63 50 40 18</p>
+      <p class="footer_mailbox">
+        <i class="fa-solid fa-envelope"></i>
+        Adresse email: 
         <a href="mailto:zanamalata@hotmail.com">ipsumlorem@hotmail.com</a><br>
         <span class="italic">cliquez sur le lien pour nous envoyer un mail</span>        
     </p>

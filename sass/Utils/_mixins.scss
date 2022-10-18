@@ -20,3 +20,8 @@
         @content;
     }
 }
+
+@mixin footer_address-align {
+    margin-left: 20px;
+    margin-bottom: 0;
+}

@@ -24,8 +24,8 @@ p {
   font-weight: 700;
 }
 
-footer > a {
-  color: #9E8CB1;
+.italic {
+  font-style: italic;
 }
 
 header {
@@ -282,10 +282,12 @@ label {
 }
 @media screen and (min-width: 1280px) {
   .presentation_figure {
-    width: 50%;
+    width: 770px;
+    height: 578px;
   }
   .presentation_image {
-    width: 100%;
+    width: 770px;
+    height: 578px;
   }
 }
 #team {
@@ -375,42 +377,49 @@ label {
     height: 150px;
   }
 }
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   position: relative;
+  height: min-content;
   padding-bottom: 20px;
   background-color: #5069FA;
 }
-footer > a {
+.footer > a {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 15%;
 }
-footer > a > img {
+.footer > a > img {
   height: 100px;
   width: 90%;
   padding-top: 20px;
 }
-footer > h1 {
+.footer > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 900;
   font-size: x-large;
+  margin-bottom: 0;
 }
-footer > p {
+.footer_address {
   margin-left: 20px;
+  margin-bottom: 0;
 }
-
-.italic {
-  font-style: italic;
+.footer_phone {
+  margin-left: 20px;
+  margin-bottom: 0;
 }
-
-#footer_mailbox {
-  color: rgb(116, 6, 6);
+.footer_mailbox {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.footer_mailbox > a {
+  font-size: 1.4rem;
+  color: #1B0000;
 }
 
 .main_contact {

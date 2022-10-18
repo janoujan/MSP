@@ -1,14 +1,15 @@
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     position: relative;
+    height: min-content;
     padding-bottom: 20px;
     background-color: $primary_color;
-    
+
     &>a {
         display: flex;
         @include center;
-        margin:auto;
+        margin: auto;
         width: 15%;
 
         &>img {
@@ -23,17 +24,23 @@ footer {
         @include center;
         font-weight: 900;
         font-size: x-large;
+        margin-bottom: 0;
     }
 
-    &>p{
-        margin-left: 20px;
+    &_address {
+        @include footer_address-align;
     }
-}
 
-.italic {
-    font-style: italic;
-}
+    &_phone {
+        @include footer_address-align;
+    }
 
-#footer_mailbox {
-    color: rgb(116, 6, 6);
+    &_mailbox {
+        @include footer_address-align;
+
+        &>a {
+            font-size: 1.4rem;
+            color: #1B0000;
+        }
+    }
 }
