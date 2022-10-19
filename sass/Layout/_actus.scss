@@ -18,8 +18,9 @@
     margin: auto;
     margin-bottom: 70px;
     height: max-content;
+    text-align: center;
     background-color: $tertary_color;
-    border: 2px solid $border_tertary_color;
+    border: 1px solid $tertary_color;
     border-radius: 20px;
     box-shadow: 2px 3px 2px 1px #4b424b23;
     z-index: -1;
@@ -63,10 +64,6 @@
         width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-    }
-
-    &_caption {
-        margin-left: 20px;
     }
 }
 

@@ -78,8 +78,11 @@
 
 @include desktop {
     .map {
+        
+        width: 60%;
 
         &_frame {
+           
             height: 400px;
         }
     }
@@ -87,6 +90,8 @@
 
 @include ultraHD {
     .map {
+        
+        width: 60%;
 
         &_frame {
             height: 400px;

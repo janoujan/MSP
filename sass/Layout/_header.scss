@@ -17,16 +17,15 @@ header {
 .logo {
     display: flex;
     justify-content: left;
-    align-items: flex-start;
-    width: 35%;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 30%;
     height: 100%;
 
     &_svg {
-        width: 100%;
-        height: 86%;
-        stroke-width: 5px;
-        stroke: black;
-        overflow: visible;
+        width: 140px;
+        height: 130px;
     }
 }
 
@@ -111,6 +110,7 @@ label {
     border: none;
     top: 20px;
     text-decoration: underline 2px solid #59543F;
+    margin: -13%;
 }
 
 #toggle {
@@ -118,6 +118,10 @@ label {
 }
 
 @include tablet {
+
+    .logo {
+        margin-top: 40px;
+    }
 
     label {
         display: none;
@@ -151,7 +155,7 @@ label {
             &>a:hover,
             &>:active {
                 justify-content: space-around;
-                text-decoration:underline 8px solid $border_tertary_color;
+                text-decoration: underline 8px solid $border_tertary_color;
                 font-size: 1.6rem;
             }
         }
@@ -159,6 +163,10 @@ label {
 }
 
 @include desktop {
+
+    .logo {
+        margin-top: 30px;
+    }
 
     label {
         display: none;
@@ -197,7 +205,7 @@ label {
                 box-shadow: 1px 3px 2px 2px rgba(4, 5, 58, 0.308);
                 border-radius: 40px;
                 height: max-content;
-                padding: 23px;               
+                padding: 23px;
                 justify-content: space-around;
                 text-decoration: none;
                 font-size: 1.4rem;
@@ -222,7 +230,7 @@ label {
             font-size: 1.6rem;
 
             &:hover {
-                padding: 1%;
+                padding: 0.6%;
                 padding-left: 0.1%;
                 padding-right: 0.1%;
             }
