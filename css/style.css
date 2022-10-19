@@ -608,7 +608,6 @@ body {
   border: #9E8CB1 5px solid;
   border-radius: 20px;
   background-color: #C0E4F0;
-  z-index: 10;
 }
 .agenda_solo {
   display: flex;
