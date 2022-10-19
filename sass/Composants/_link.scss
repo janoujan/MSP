@@ -45,3 +45,31 @@
         margin-left: 20px;
     }
 }
+
+#link {
+    margin-bottom: 80px;
+    border: 1px solid transparent;
+}
+
+@include tablet {
+    .link {
+
+        &_aside {
+            width: 540px;
+        }
+    }
+}
+
+@include desktop {
+    .link {
+        display: flex;
+        flex-direction: row;
+        justify-content: first baseline;
+        padding: 0;
+
+        &_aside {
+            width: 640px;
+            height: 300px;
+        }
+    }
+}
