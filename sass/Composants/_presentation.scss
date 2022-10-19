@@ -15,9 +15,9 @@
         object-fit: fill;
         width: 333px;
         height: 266px;
-        border: 2px $tertary_color solid;
+        border: 1px $tertary_color solid;
         border-radius: 20px;
-        box-shadow: 2px 3px 2px 1px #3f373f1a;
+        box-shadow: 2px 4px 3px 2px #15474562;
     }
 
     &_figcaption {
@@ -26,9 +26,8 @@
         font-size: 1.2rem;
         font-weight: 900;
         background-color: $tertary_color;
-        border: 2px $border_tertary_color solid;
         border-radius: 20px;
-        box-shadow: 2px 3px 2px 1px #4b424b44;
+        box-shadow: 2px 4px 3px 2px #15474562;
     }
 }
 
@@ -71,4 +70,3 @@
         }
     }
 }
-
