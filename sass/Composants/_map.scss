@@ -13,10 +13,21 @@
     box-shadow: 2px 3px 2px 2px #6374b642;
 
     &_frame {
-        width: 70%;
-        height: 333px;
-        border: 2px $secondary_color solid;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+        width: 68%;
+        border: 5px $secondary_color solid;
         border-radius: 20px;
+
+        &>iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
     }
 
     &_place {
@@ -31,10 +42,15 @@
 }
 
 @include tablet {
-   .map {
+    .map {
 
-    &_frame {
-        height: 500px;
+        &_frame {
+            height: 500px;
+        }
     }
-   }   
 }
+
+
+
+
+
