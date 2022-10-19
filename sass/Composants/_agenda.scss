@@ -3,11 +3,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
-    padding-bottom: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
 
     &_title {
         margin-left: 20px;
+        text-align: center;
     }
 
     &_caption {
@@ -17,7 +18,6 @@
 
     &_table {
         width: min-content;
-        border: $border_tertary_color 5px solid;
         border-radius: 20px;
         background-color: $tertary_color;
     }
@@ -29,11 +29,11 @@
         background-color: $tertary_color;
         margin: 20px;
         padding: 20px;
-        border: 2px solid $border_tertary_color;
         border-radius: 20px;
         width: 80%;
-
-    }
+        text-align: center;
+        box-shadow: 2px 4px 3px 2px #184f5f60;
+   }
 }
 
 table {
@@ -42,7 +42,7 @@ table {
     width: min-content;
 }
 
-tr{
+tr {
     border: 2px solid $border_tertary_color;
     border-radius: 20px;
 }
@@ -80,16 +80,14 @@ td {
     border-bottom-left-radius: 11px;
 }
 
-@include tablet{
-
-}
+@include tablet {}
 
 @include desktop {
 
     table {
         width: fit-content;
     }
-    
+
     .agenda {
         width: 70%;
         @include center;
@@ -103,3 +101,9 @@ td {
         width: max-content;
     }
 }
+
+
+
+
+
+

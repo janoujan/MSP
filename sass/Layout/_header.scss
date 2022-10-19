@@ -11,6 +11,7 @@ header {
     padding: 0%;
     background-color: $primary_color;
     border: 2px solid $tertary_color;
+    z-index: 10;
 }
 
 .logo {
