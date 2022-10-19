@@ -1,7 +1,7 @@
 .main_contact {
     position: relative;
     top: 95px;
-    padding-bottom: 10px;
+    height: fit-content;
     background-color: $secondary_color;
     z-index: -1;
 }
@@ -13,3 +13,20 @@
     font-weight: 900;
     font-size: 2rem;
 }
+
+@include desktop {
+
+    .main_contact {
+        padding-bottom: 80px;
+    }
+}
+
+// @include ultraHD {
+//     .main_contact{
+//         padding-bottom: 120px;
+//     }
+// }
+
+
+
+

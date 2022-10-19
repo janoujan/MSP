@@ -15,14 +15,16 @@
     box-shadow: 2px 3px 2px 1px #4b424b23;
 
     &_image {
-        object-fit: contain;
-        width: 150px;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
         border-radius: 100%;
         border: 1px $secondary_color solid;
     }
 
     &_title {
         font-size: 1.8rem;
+        
     }
 
     &_profession {
@@ -40,7 +42,7 @@
         font-weight: 900;
         font-style: oblique;
         font-size: larger;
-        margin-bottom: 0;
+        margin: 0;
 
     }
 }
@@ -51,15 +53,21 @@
 
 @include desktop {
     .profile {
-        width: 30%;
+        width: 26%;
+
+        &_image {
+            width: 150px;
+            height: 150px;
+        }
     }
 }
-
+    
 @include ultraHD {
     .profile {
         height: auto;
 
         &_image {
+            width: 150px;
             height: 150px;
         }
     }

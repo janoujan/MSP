@@ -63,5 +63,12 @@
     }
 }
 
-
+@include ultraHD {
+    .presentation {
+        &_figcaption {
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}
 

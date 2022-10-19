@@ -39,6 +39,15 @@
         margin-bottom: 20px;
         justify-content: flex-start;
     }
+
+    &_contact {
+        font-size: 1.6rem;
+        font-weight: 900;
+        @include center;
+        margin-left: 20px;
+        color: black;
+        
+    }
 }
 
 @include tablet {
@@ -50,6 +59,16 @@
     }
 }
 
+@include ultraHD {
+    .map {
+
+        &_frame {
+            height: 400px;
+            
+
+        }
+    }
+}
 
 
 
