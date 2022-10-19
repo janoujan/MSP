@@ -11,7 +11,7 @@
         @include center;
         margin: auto;
         width: auto;
-        
+
         &>img {
             height: 100%;
             width: 100%;
@@ -43,6 +43,13 @@
         &>a {
             font-size: 1.4rem;
             color: #1B0000;
+            text-decoration: underline solid 5px $tertary_color;
+        }
+
+        &>a:hover,
+        &>a:active {
+            font-size: 1.7rem;
+            text-decoration: underline solid 7px $tertary_color;
         }
     }
 }

@@ -60,8 +60,6 @@ header {
         height: 14vh;
         width: 100%;
         margin-top: 0;
-        border: 4px solid $tertary_color;
-        border-top: none;
 
         & a {
             width: 50%;
@@ -75,13 +73,13 @@ header {
             font-weight: 900;
 
             &:hover {
-                border: #59543F 2px solid;
-                padding: 3%;
-                border-radius: 20px;
+                font-size: x-large;
+                text-decoration: underline 8px $tertary_color;
             }
 
             &:active {
-                text-decoration: underline 5px;
+                text-decoration: underline 10px $border_tertary_color;
+                font-size: xx-large;
             }
         }
     }
@@ -146,21 +144,17 @@ label {
             height: 100%;
             margin-left: -100%;
             border: none;
-            text-decoration: underline #1118429f solid 4px;
+            text-decoration: underline solid 6px $tertary_color;
+            font-size: 1.1rem;
 
-            &>a:hover {
-                border-top: 1px solid black;
-                border-right: 3px solid black;
-                border-bottom: 4px solid black;
-                border-left: 2px solid black;
-                box-shadow: 1px 3px 2px 2px rgba(4, 5, 58, 0.308);
-                border-radius: 40px;
-                padding-top: 5%;
-                padding-bottom: 5%;
+            &>a:hover,
+            &>:active {
                 justify-content: space-around;
-                text-decoration: none;
-
+                text-decoration:underline 8px solid $border_tertary_color;
+                font-size: 1.6rem;
             }
+
+
 
         }
     }
@@ -235,8 +229,3 @@ label {
         }
     }
 }
-
-
-
-
-
