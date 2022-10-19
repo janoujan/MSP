@@ -209,9 +209,11 @@ label {
     border-left: 2px solid black;
     box-shadow: 1px 3px 2px 2px rgba(4, 5, 58, 0.308);
     border-radius: 40px;
-    height: min-content;
+    height: max-content;
+    padding: 23px;
     justify-content: space-around;
     text-decoration: none;
+    font-size: 1.4rem;
   }
   .navigation_link > a:active {
     text-decoration: underline solid 5px black;
@@ -431,9 +433,13 @@ label {
   color: #1B0000;
   text-decoration: underline solid 5px #C0E4F0;
 }
-.footer_mailbox > a:hover, .footer_mailbox > a:active {
+.footer_mailbox > a:hover {
   font-size: 1.7rem;
   text-decoration: underline solid 7px #C0E4F0;
+}
+.footer_mailbox > a:active {
+  font-size: 2rem;
+  text-decoration: underline solid 7px #9E8CB1;
 }
 
 .main_contact {

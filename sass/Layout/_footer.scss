@@ -46,10 +46,14 @@
             text-decoration: underline solid 5px $tertary_color;
         }
 
-        &>a:hover,
-        &>a:active {
+        &>a:hover {
             font-size: 1.7rem;
             text-decoration: underline solid 7px $tertary_color;
+        }
+
+        &>a:active {
+            font-size: 2rem;
+            text-decoration: underline solid 7px $border_tertary_color;
         }
     }
 }
