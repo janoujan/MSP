@@ -393,7 +393,7 @@ label {
   flex-direction: column;
   position: relative;
   height: fit-content;
-  padding-bottom: 600px;
+  padding-bottom: 100px;
   background-color: #5069FA;
 }
 .footer > a {
