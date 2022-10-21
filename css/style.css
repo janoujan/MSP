@@ -539,6 +539,9 @@ label {
   box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
   z-index: -2;
 }
+.map_title {
+  font-size: 2rem;
+}
 .map_frame {
   overflow: hidden;
   padding-bottom: 0;
@@ -558,11 +561,19 @@ label {
 }
 .map_place {
   margin: 20px;
+  font-size: 1.6rem;
+}
+.map_hours {
+  font-size: 1.4rem;
 }
 .map_address {
   margin: 0;
   margin-bottom: 20px;
   justify-content: flex-start;
+  font-size: 1.4rem;
+}
+.map_contact {
+  font-size: 1.4rem;
 }
 .map_contact + a {
   font-size: 1.2rem;

@@ -11,7 +11,11 @@
     border-radius: 20px;
     box-shadow: 2px 4px 3px 2px #184f5f60;
     z-index: -2;
-
+     
+    &_title {
+        font-size: 2rem;
+    }
+    
     &_frame {
         overflow: hidden;
         padding-bottom: 0;
@@ -21,7 +25,7 @@
         border: 2px $secondary_color solid;
         border-radius: 20px;
         box-shadow: none;
-
+        
         &>iframe {
             left: 0;
             top: 0;
@@ -30,17 +34,25 @@
             position: absolute;
         }
     }
-
+    
     &_place {
         margin: 20px;
+        font-size: 1.6rem;
     }
+    
+    &_hours {
+        font-size: 1.4rem;
+   }
 
     &_address {
         margin: 0;
         margin-bottom: 20px;
         justify-content: flex-start;
-
-
+        font-size: 1.4rem;
+    }
+    
+    &_contact {
+        font-size: 1.4rem;
     }
 
     &_contact+a {
@@ -52,7 +64,7 @@
         color: black;
         text-decoration: underline solid 4px $primary_color;
         text-align: center;
-
+        
 
         &:hover {
             text-decoration: underline solid 6px $primary_color;
