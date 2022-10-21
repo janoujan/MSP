@@ -724,7 +724,7 @@ th {
     width: max-content;
   }
 }
-main {
+#main_links {
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -1,11 +1,11 @@
-main {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-position: relative;
-margin-bottom: 70px;
-}
+#main_links {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+   margin-bottom: 70px;
+ }
 
 #links_title {
     display: flex;
