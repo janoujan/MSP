@@ -11,6 +11,10 @@ body {
   z-index: -1;
 }
 
+main {
+  z-index: -1;
+}
+
 * {
   font-family: Inter, Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 1px 1px 2px white;
@@ -35,7 +39,7 @@ header {
   top: 0%;
   margin: 0%;
   padding: 0%;
-  background-color: #5385fa;
+  background-color: #2f6cf8;
   border: 2px solid #C0E4F0;
   z-index: 10;
 }
@@ -80,7 +84,7 @@ header {
 .navigation_link {
   display: none;
   flex-direction: column;
-  background: #5385fa;
+  background: #2f6cf8;
   height: 14vh;
   width: 100%;
   margin-top: 0;
@@ -103,7 +107,7 @@ header {
   width: 70%;
   background-color: black;
   transform: scale(0);
-  transition: transform 800ms;
+  transition: transform 400ms;
 }
 
 .navigation_link a:hover + .navigation_link-hover {
@@ -403,7 +407,7 @@ label {
   position: relative;
   height: fit-content;
   padding-bottom: 100px;
-  background-color: #5385fa;
+  background-color: #2f6cf8;
 }
 .footer > a {
   display: flex;
@@ -469,7 +473,7 @@ label {
   position: relative;
   top: 120px;
   font-size: 2.3rem;
-  z-index: -1;
+  z-index: 1;
 }
 
 .information {
@@ -481,14 +485,14 @@ label {
   top: 120px;
   width: 80%;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
   height: max-content;
   text-align: center;
   background-color: #C0E4F0;
   border: 1px solid #C0E4F0;
   border-radius: 20px;
   box-shadow: 2px 3px 2px 1px rgba(75, 66, 75, 0.137254902);
-  z-index: -1;
+  z-index: 1;
 }
 .information_article {
   width: 75%;
@@ -583,11 +587,11 @@ label {
   margin-left: 20px;
   margin-right: 20px;
   color: black;
-  text-decoration: underline solid 4px #5385fa;
+  text-decoration: underline solid 4px #2f6cf8;
   text-align: center;
 }
 .map_contact + a:hover {
-  text-decoration: underline solid 6px #5385fa;
+  text-decoration: underline solid 6px #2f6cf8;
   font-size: 1.4rem;
 }
 .map_contact + a:active {
@@ -673,7 +677,7 @@ th {
 }
 
 .day {
-  background-color: #5385fa;
+  background-color: #2f6cf8;
   border: 1px solid black;
 }
 
@@ -705,7 +709,7 @@ th {
 .top_right {
   border-top-right-radius: 20px;
   border: none;
-  background-color: #5385fa;
+  background-color: #2f6cf8;
 }
 
 #bottom_left {
