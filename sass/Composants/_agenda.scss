@@ -9,21 +9,14 @@
     &_title {
         margin-left: 20px;
         text-align: center;
+        font-size: 1.8rem;
     }
 
     &_caption {
         margin-left: 20px;
         margin-top: 0;
+        font-size: 1.4rem;
     }
-
-    // &_table {
-    //     width: min-content;
-    //     border-radius: 20px;
-    //     background-color: $tertary_color;
-    //     min-width: 756px;
-    //     max-width: 756px
-    //     height: 300px;
-    // }
 
     &_solo {
         display: flex;
@@ -36,6 +29,7 @@
         width: 80%;
         text-align: center;
         box-shadow: 2px 4px 3px 2px #184f5f60;
+        font-size: 1.4rem;
     }
 }
 
@@ -46,6 +40,7 @@ table {
     min-width: 760px;
     max-width: 760px;
     height: 350px;
+    font-size: 1.4rem;
 }
 
 td {
@@ -106,12 +101,6 @@ th {
     border-bottom-right-radius: 20px;
     border: none;
 }
-
-td.no_border_right.cornu {
-    // border-right: none;
-}
-
-@include tablet {}
 
 @include desktop {
 
