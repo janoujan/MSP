@@ -8,6 +8,7 @@ body {
   height: 100%;
   margin: 0px;
   background-color: #5A9AAD;
+  z-index: -1;
 }
 
 * {
@@ -731,6 +732,7 @@ th {
   align-items: center;
   position: relative;
   margin-bottom: 70px;
+  z-index: -1;
 }
 
 #links_title {
@@ -740,7 +742,7 @@ th {
   position: relative;
   top: 120px;
   font-size: 2.2rem;
-  z-index: -1;
+  z-index: 1;
 }
 
 .link {
@@ -759,7 +761,6 @@ th {
   border-radius: 20px;
   box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
   z-index: 1;
-  z-index: -1;
 }
 .link_article {
   width: 100%;
