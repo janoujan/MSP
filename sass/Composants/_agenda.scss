@@ -16,11 +16,14 @@
         margin-top: 0;
     }
 
-    &_table {
-        width: min-content;
-        border-radius: 20px;
-        background-color: $tertary_color;
-    }
+    // &_table {
+    //     width: min-content;
+    //     border-radius: 20px;
+    //     background-color: $tertary_color;
+    //     min-width: 756px;
+    //     max-width: 756px
+    //     height: 300px;
+    // }
 
     &_solo {
         display: flex;
@@ -39,26 +42,32 @@
 table {
     border-collapse: collapse;
     overflow-x: auto;
-    width: min-content;
     border-radius: 20px;
+    min-width: 760px;
+    max-width: 760px;
+    height: 350px;
 }
 
-tr,
-th {
-    border: none;
+td {
+    border: 1px solid black;
 }
 
-td,
+td.border_right {
+    border: 1px solid black;
+    border-bottom-right-radius: 20px;
+}
+
 th {
     border: 1px solid black;
 }
 
 .day {
     background-color: $primary_color;
+    border: 1px solid black;
 }
 
 .half_day {
-    background-color: #ABC3D1;
+    background-color: $tertary_color;
 }
 
 .cornu {
@@ -73,12 +82,16 @@ th {
     background-color: #D1B6B6;
 }
 
+.empty {
+    background-color: #CEEAD6;
+}
+
 #top_left {
-    border-radius: 20px;
+    border-top-left-radius: 20px;
     border: none;
 }
 
-#top_right {
+.top_right {
     border-top-right-radius: 20px;
     border: none;
     background-color: $primary_color;
@@ -89,9 +102,13 @@ th {
     border: none;
 }
 
-#bottom_right {
+.bottom_right {
     border-bottom-right-radius: 20px;
     border: none;
+}
+
+td.no_border_right.cornu {
+    // border-right: none;
 }
 
 @include tablet {}
@@ -99,7 +116,10 @@ th {
 @include desktop {
 
     table {
-        width: fit-content;
+        width: 760px;
+        height: 300px;
+        text-align: center;
+        font-size: 1.4rem;
     }
 
     .agenda {
@@ -110,7 +130,7 @@ th {
 }
 
 @include ultraHD {
-    
+
     .agenda {
         &_solo {
             width: 60%;
@@ -121,8 +141,3 @@ th {
         width: max-content;
     }
 }
-
-
-
-
-
