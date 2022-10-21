@@ -1,5 +1,4 @@
 #radio {
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,5 +9,17 @@
     background-color: $tertary_color;
     border-radius: 20px;
     text-align: center;
-
 }
+
+.radio {
+
+    &_frame>iframe {
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+
