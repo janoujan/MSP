@@ -1,0 +1,14 @@
+#radio {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 120px;
+    margin-bottom: 80px;
+    background-color: $tertary_color;
+    border-radius: 20px;
+    text-align: center;
+
+}
