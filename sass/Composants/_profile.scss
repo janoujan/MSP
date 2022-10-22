@@ -1,8 +1,7 @@
 .profile {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    @include center;
     width: 45%;
     top: 0%;
     margin: auto;
@@ -12,6 +11,7 @@
     border-radius: 40px;
     background-color: $tertary_color;
     box-shadow: 2px 4px 3px 2px #15474562;
+    text-align: center;
 
     &_image {
         object-fit: contain;
