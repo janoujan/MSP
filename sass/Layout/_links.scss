@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   z-index: -1;
 
 }
@@ -18,17 +18,50 @@
   z-index: 1;
 }
 
-#links_subtitle {
+.links_subtitle {
   display: flex;
   @include center;
   position: relative;
   top: 120px;
   font-size: 1.8rem;
   z-index: 1;
+  text-align: center;
 }
 
+#radio,
+#irm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  position: relative;
+  top: 120px;
+  margin-bottom: 40px;
+  background-color: $tertary_color;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 4px 3px 2px #184f5f60;
 
+}
+.fa-solid{
+  margin-right: 10px; 
+}
 
+@include tablet {
 
+  #irm {
+    flex-direction: row;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+}
 
+@include desktop {
 
+  #irm {
+    flex-direction: row;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+}

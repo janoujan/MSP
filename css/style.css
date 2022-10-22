@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  position: relative;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -733,7 +734,6 @@ th {
 }
 
 h3.agenda_caption {
-  border: 2px solid red;
   font-size: 1.8rem;
 }
 
@@ -765,7 +765,7 @@ h3.agenda_caption {
   justify-content: space-around;
   align-items: center;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   z-index: -1;
 }
 
@@ -779,7 +779,7 @@ h3.agenda_caption {
   z-index: 1;
 }
 
-#links_subtitle {
+.links_subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -787,8 +787,43 @@ h3.agenda_caption {
   top: 120px;
   font-size: 1.8rem;
   z-index: 1;
+  text-align: center;
 }
 
+#radio,
+#irm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  position: relative;
+  top: 120px;
+  margin-bottom: 40px;
+  background-color: #C0E4F0;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+@media (min-width: 770px) and (max-width: 1279px) {
+  #irm {
+    flex-direction: row;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #irm {
+    flex-direction: row;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+}
 .link {
   display: flex;
   flex-direction: column;
@@ -811,6 +846,7 @@ h3.agenda_caption {
 }
 .link_title {
   text-align: center;
+  font-size: 1.6rem;
 }
 .link_text {
   margin-left: 20px;
@@ -849,21 +885,6 @@ h3.agenda_caption {
     height: 300px;
   }
 }
-#radio {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 85%;
-  position: relative;
-  top: 120px;
-  margin-bottom: 80px;
-  background-color: #C0E4F0;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
-}
-
 .radio {
   justify-content: space-around;
   align-items: center;
@@ -888,6 +909,37 @@ h3.agenda_caption {
     width: 33%;
     margin-bottom: 0;
   }
+}
+#numeros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  position: relative;
+  top: 120px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #C0E4F0;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
+  flex-wrap: wrap;
+}
+
+.numero {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #2f6cf8;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(24, 79, 95, 0.3764705882);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

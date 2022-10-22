@@ -21,6 +21,7 @@
 
     &_title {
         text-align: center;
+        font-size: 1.6rem;
     }
 
     &_text {
@@ -46,12 +47,7 @@
     }
 }
 
-//  #link {
-//      display:flex;
-//      flex-direction: column;
-//      margin-bottom: 80px;
-//      z-index: -1;
-//  }
+
 
 @include tablet {
     .link {
