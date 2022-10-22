@@ -14,11 +14,10 @@
     box-shadow: 2px 4px 3px 2px #15474562;
 
     &_image {
-        object-fit: cover;
+        object-fit: contain;
         width: 100px;
         height: 100px;
-        border-radius: 20px;
-        border: 1px $secondary_color solid;
+        padding-top: 5px;
     }
 
     &_title {
@@ -63,6 +62,8 @@
         &_image {
             width: 150px;
             height: 150px;
+            object-fit: contain;
+
         }
     }
 }

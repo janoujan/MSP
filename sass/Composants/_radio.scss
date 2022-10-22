@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 85%;
     position: relative;
     top: 120px;
     margin-bottom: 80px;
@@ -12,8 +12,8 @@
 }
 
 .radio {
-
     &_frame>iframe {
+        width: 80%;
         border-radius: 20px;
     }
 }
