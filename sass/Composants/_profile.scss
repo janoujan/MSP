@@ -54,6 +54,11 @@
 #kine {
     font-size: 1.2rem;
 }
+@include tablet {
+    .profile {
+        width: 40%;
+    }
+}
 
 @include desktop {
     .profile {

@@ -382,6 +382,11 @@ label {
   font-size: 1.2rem;
 }
 
+@media (min-width: 770px) and (max-width: 1279px) {
+  .profile {
+    width: 40%;
+  }
+}
 @media screen and (min-width: 1280px) {
   .profile {
     width: 26%;
@@ -542,6 +547,7 @@ label {
   border-radius: 20px;
   box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
   z-index: -2;
+  text-align: center;
 }
 .map_title {
   font-size: 2rem;
@@ -631,7 +637,7 @@ label {
 .agenda_title {
   margin-left: 20px;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .agenda_caption {
   margin-left: 20px;
@@ -651,6 +657,10 @@ label {
   text-align: center;
   box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
   font-size: 1.4rem;
+}
+.agenda_solo-image-dentiste {
+  width: 100px;
+  height: 100px;
 }
 
 table {
@@ -720,6 +730,11 @@ th {
 .bottom_right {
   border-bottom-right-radius: 20px;
   border: none;
+}
+
+h3.agenda_caption {
+  border: 2px solid red;
+  font-size: 1.8rem;
 }
 
 @media screen and (min-width: 1280px) {
@@ -850,14 +865,29 @@ th {
 }
 
 .radio {
-  border: 1px solid black;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 .radio_frame > iframe {
   width: 80%;
   border-radius: 20px;
   border: 1px solid black;
+}
+
+@media (min-width: 770px) and (max-width: 1279px) {
+  #radio {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #radio {
+    flex-direction: row;
+  }
+  .radio {
+    width: 33%;
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

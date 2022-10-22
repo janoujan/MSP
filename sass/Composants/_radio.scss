@@ -15,14 +15,29 @@
 }
 
 .radio {
-     border: 1px solid black;
-     justify-content: space-around;
-     align-items: center;
-    &_frame {}
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 
     &_frame>iframe {
         width: 80%;
         border-radius: 20px;
         border: 1px solid black;
+    }
+}
+
+@include tablet {
+    #radio {
+        flex-direction: row;
+    }
+}
+
+@include desktop {
+    #radio {
+        flex-direction: row;
+    }
+    .radio {
+        width: 33%;
+        margin-bottom: 0;
     }
 }

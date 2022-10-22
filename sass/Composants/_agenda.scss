@@ -9,7 +9,7 @@
     &_title {
         margin-left: 20px;
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     &_caption {
@@ -30,6 +30,13 @@
         text-align: center;
         box-shadow: 2px 4px 3px 2px #184f5f60;
         font-size: 1.4rem;
+
+        &-image {
+            &-dentiste{
+            width: 100px;
+            height: 100px;
+        }
+    }
     }
 }
 
@@ -100,6 +107,13 @@ th {
 .bottom_right {
     border-bottom-right-radius: 20px;
     border: none;
+}
+
+// typo specifiques
+
+h3.agenda_caption {
+    border: 2px solid red;
+    font-size: 1.8rem;
 }
 
 @include desktop {
