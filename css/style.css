@@ -266,7 +266,7 @@ label {
   box-shadow: 2px 4px 3px 2px rgba(21, 71, 69, 0.3843137255);
 }
 .presentation_figcaption {
-  width: 90%;
+  width: 80%;
   padding: 4%;
   font-size: 1.2rem;
   font-weight: 900;
@@ -336,9 +336,9 @@ label {
 .profile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: first baseline;
   align-items: center;
-  width: 45%;
+  width: 80%;
   top: 0%;
   margin: auto;
   margin-top: 0;
@@ -354,6 +354,9 @@ label {
   width: 100px;
   height: 100px;
   padding-top: 5px;
+}
+.profile_image-dentiste {
+  margin-top: -5%;
 }
 .profile_title {
   font-size: 1.8rem;
