@@ -22,13 +22,12 @@
 
         &-dentiste {
             margin-top: -5%;
-            
         }
     }
 
     &_title {
         font-size: 1.8rem;
-        
+
     }
 
     &_profession {
@@ -60,6 +59,7 @@
 #kine {
     font-size: 1.2rem;
 }
+
 @include tablet {
     .profile {
         width: 40%;
@@ -78,7 +78,7 @@
         }
     }
 }
-    
+
 @include ultraHD {
     .profile {
         height: auto;
@@ -89,8 +89,3 @@
         }
     }
 }
-
-
-
-
-
