@@ -49,14 +49,16 @@ header {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-top: 40px;
-  margin-left: 20px;
-  width: 30%;
+  margin: auto;
+  width: 40%;
   height: 100%;
+  margin-left: 20px;
 }
 .logo_svg {
-  width: 140px;
-  height: 130px;
+  width: 125px;
+  height: 125px;
+  position: relative;
+  top: 0%;
 }
 
 .navigation {
@@ -149,8 +151,8 @@ label {
 }
 
 @media (min-width: 770px) and (max-width: 1279px) {
-  .logo {
-    margin-top: 40px;
+  .logo_svg {
+    top: 5%;
   }
   label {
     display: none;
@@ -188,7 +190,12 @@ label {
 
 @media screen and (min-width: 1280px) {
   .logo {
-    margin-top: 30px;
+    margin-left: -6%;
+  }
+  .logo_svg {
+    top: 5%;
+    width: 150%;
+    height: 150%;
   }
   label {
     display: none;
@@ -205,6 +212,7 @@ label {
     top: 20px;
     padding-bottom: 10px;
     padding-left: 3%;
+    margin-left: -22%;
   }
   .navigation_link {
     display: flex;
@@ -231,6 +239,7 @@ label {
     font-size: 2.4rem;
     justify-content: center;
     align-items: center;
+    margin-left: -35%;
   }
   .navigation_link {
     margin-top: -1%;
