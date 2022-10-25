@@ -364,6 +364,10 @@ label {
   height: 100px;
   padding-top: 5px;
 }
+.profile_image-dentiste {
+  width: 35%;
+  height: 25%;
+}
 .profile_title {
   font-size: 1.8rem;
 }
