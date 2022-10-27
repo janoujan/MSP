@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="150"
+   height="150"
+   viewBox="0 0 39.687499 39.687501"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="logo infirmiere.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path903" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path906" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path908" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path910" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+    <symbol
+       id="PRINTRBOT_PLUS" />
+    <symbol
+       id="MAKERBOT_CUPCAKE" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_5TH_GE" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_MINI" />
+    <symbol
+       id="STRATASYS_UPRINT_SE_PLUS" />
+    <symbol
+       id="BUILD_BOX" />
+    <symbol
+       id="ULTIMAKER_-_ORIGINAL" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_SINGLE" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_Z18" />
+    <symbol
+       id="PRINTRBOT_JR_" />
+    <symbol
+       id="LULZBOT_TAZ" />
+    <symbol
+       id="FELIX_2_0" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_TRIPLE" />
+    <symbol
+       id="FORMLABS_FORM_1" />
+    <symbol
+       id="AFINIA_H-SERIES" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2X" />
+    <symbol
+       id="PRINTRBOT_SIMPLE" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_DOUBLE" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_1" />
+    <symbol
+       id="STRATASYS_MOJO" />
+    <symbol
+       id="ULTIMAKER_2" />
+    <symbol
+       id="STRATASYS_UPRINT_SE" />
+    <symbol
+       id="3D_SYSTEMS_CUBE" />
+    <symbol
+       id="3D_PRINTER_BUILD_VOLUME" />
+    <symbol
+       id="DESSIN_DXF" />
+    <marker
+       id="DistanceX-7"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path42774" />
+    </marker>
+    <pattern
+       id="Hatch-4"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path42777" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path42779" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path42781" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-5" />
+    <symbol
+       id="*PAPER_SPACE-0" />
+    <symbol
+       id="PRINTRBOT_PLUS-1" />
+    <symbol
+       id="MAKERBOT_CUPCAKE-5" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_5TH_GE-5" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_MINI-0" />
+    <symbol
+       id="STRATASYS_UPRINT_SE_PLUS-4" />
+    <symbol
+       id="BUILD_BOX-6" />
+    <symbol
+       id="ULTIMAKER_-_ORIGINAL-9" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_SINGLE-6" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_Z18-6" />
+    <symbol
+       id="PRINTRBOT_JR_-7" />
+    <symbol
+       id="LULZBOT_TAZ-3" />
+    <symbol
+       id="FELIX_2_0-9" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_TRIPLE-5" />
+    <symbol
+       id="FORMLABS_FORM_1-2" />
+    <symbol
+       id="AFINIA_H-SERIES-0" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2X-5" />
+    <symbol
+       id="PRINTRBOT_SIMPLE-5" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_DOUBLE-9" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2-5" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_1-7" />
+    <symbol
+       id="STRATASYS_MOJO-9" />
+    <symbol
+       id="ULTIMAKER_2-1" />
+    <symbol
+       id="STRATASYS_UPRINT_SE-7" />
+    <symbol
+       id="3D_SYSTEMS_CUBE-5" />
+    <symbol
+       id="3D_PRINTER_BUILD_VOLUME-2" />
+    <symbol
+       id="DESSIN_DXF-9" />
+    <marker
+       id="DistanceX-3"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path84651" />
+    </marker>
+    <pattern
+       id="Hatch-44"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path84654" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path84656" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path84658" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-0" />
+    <symbol
+       id="*PAPER_SPACE-7" />
+    <marker
+       id="DistanceX-0"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path85100" />
+    </marker>
+    <pattern
+       id="Hatch-7"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path85103" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path85105" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path85107" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-52" />
+    <symbol
+       id="*PAPER_SPACE-5" />
+    <symbol
+       id="PRINTRBOT_PLUS-3" />
+    <symbol
+       id="MAKERBOT_CUPCAKE-4" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_5TH_GE-4" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_MINI-3" />
+    <symbol
+       id="STRATASYS_UPRINT_SE_PLUS-2" />
+    <symbol
+       id="BUILD_BOX-1" />
+    <symbol
+       id="ULTIMAKER_-_ORIGINAL-5" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_SINGLE-7" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_Z18-5" />
+    <symbol
+       id="PRINTRBOT_JR_-9" />
+    <symbol
+       id="LULZBOT_TAZ-6" />
+    <symbol
+       id="FELIX_2_0-3" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_TRIPLE-1" />
+    <symbol
+       id="FORMLABS_FORM_1-3" />
+    <symbol
+       id="AFINIA_H-SERIES-1" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2X-6" />
+    <symbol
+       id="PRINTRBOT_SIMPLE-9" />
+    <symbol
+       id="3D_SYSTEMS_CUBE_X_DOUBLE-7" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_2-3" />
+    <symbol
+       id="MAKERBOT_REPLICATOR_1-4" />
+    <symbol
+       id="STRATASYS_MOJO-8" />
+    <symbol
+       id="ULTIMAKER_2-8" />
+    <symbol
+       id="STRATASYS_UPRINT_SE-8" />
+    <symbol
+       id="3D_SYSTEMS_CUBE-52" />
+    <symbol
+       id="3D_PRINTER_BUILD_VOLUME-3" />
+    <symbol
+       id="DESSIN_DXF-0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="91.166267"
+     inkscape:cy="-7.576144"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g18824"
+       transform="matrix(0.27278532,0,0,0.27278532,-2.7987083,64.325211)">
+      <path
+         style="color:#000000;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 70.432484,-175.20945 h 10.320313 10.318365 l 0.0684,9.45703 0.0703,9.71875 9.189448,0.0703 8.92774,0.0684 v 10.32031 10.31836 l -8.92774,0.0684 -9.189448,0.0723 -0.0703,9.58399 -0.0684,9.32617 -10.207037,0.0684 c -2.842252,0.019 -5.446451,0.0161 -7.351563,-0.004 -0.952555,-0.01 -1.730797,-0.0251 -2.27539,-0.043 -0.272297,-0.009 -0.486066,-0.0188 -0.632813,-0.0293 -0.06474,-0.005 -0.11037,-0.009 -0.146484,-0.0137 -0.0045,-0.0323 -0.0089,-0.0707 -0.01367,-0.12695 -0.01136,-0.13322 -0.02252,-0.32721 -0.0332,-0.57422 -0.02136,-0.49402 -0.04039,-1.19995 -0.05664,-2.0625 -0.0325,-1.72508 -0.05273,-4.07922 -0.05273,-6.64844 v -9.47656 l -9.19336,-0.0723 -8.93164,-0.0684 v -10.31836 -10.32031 l 8.927734,-0.0684 9.189453,-0.0703 0.07031,-9.71875 z"
+         id="path2751" />
+      <path
+         style="color:#000000;fill:#429cea;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.752791,-233.8989 c 7.076311,0 13.314261,4.1437 15.943361,10.58594 0.31085,0.7617 0.661,1.95813 0.92969,3.10156 0.26868,1.14343 0.45703,2.24411 0.45703,2.78516 0,3.1e-4 0.0154,0.0641 0.0156,0.0644 1.8e-4,3.2e-4 0.027,0.0348 0.0273,0.0352 3.4e-4,3.1e-4 0.0154,0.0139 0.0215,0.0176 0.006,0.004 0.0111,0.006 0.0156,0.008 0.0179,0.008 0.0289,0.009 0.0391,0.0117 0.0203,0.005 0.0383,0.007 0.0625,0.01 0.0483,0.006 0.11532,0.0108 0.20117,0.0156 0.1717,0.01 0.42048,0.0204 0.74219,0.0293 0.64341,0.0177 1.572458,0.0335 2.718748,0.0469 2.29258,0.0268 5.45401,0.043 8.93164,0.043 6.95315,0 10.53147,0.009 12.73047,0.21679 2.19899,0.20743 3.01044,0.60241 4.5039,1.39844 1.83757,0.97941 3.81257,2.90134 4.74219,4.60938 0.40548,0.74499 0.68767,1.05887 0.90039,2.02343 0.21272,0.96457 0.35274,2.58844 0.44141,5.89844 0.17732,6.62 0.15429,19.98816 0.15429,48.42773 0,22.93761 -0.0117,35.98561 -0.0684,43.47071 -0.0567,7.48509 -0.16721,9.42425 -0.33398,10.06445 -1.12233,4.308887 -4.37597,7.458272 -8.94531,8.648436 -0.0441,0.01149 -0.19805,0.03219 -0.41992,0.04883 -0.22188,0.01664 -0.51993,0.03319 -0.88868,0.04883 -0.73748,0.03128 -1.75594,0.05917 -3.01562,0.08594 -2.51937,0.05353 -6.002,0.09748 -10.125,0.132812 -8.24601,0.07067 -19.056868,0.105127 -29.865234,0.103516 -10.808362,-0.0016 -21.614339,-0.03821 -29.851562,-0.111328 -4.118612,-0.03656 -7.594645,-0.08244 -10.107422,-0.136719 -1.256388,-0.02714 -2.272235,-0.0564 -3.005859,-0.08789 -0.366813,-0.01575 -0.663045,-0.03213 -0.882813,-0.04883 -0.219768,-0.0167 -0.371682,-0.03794 -0.412109,-0.04883 -3.316825,-0.893345 -6.266155,-3.115215 -7.736328,-5.816406 -0.406419,-0.746724 -0.689165,-1.060899 -0.902344,-2.025391 -0.213179,-0.96449 -0.352578,-2.58691 -0.441406,-5.89649 -0.177657,-6.61914 -0.154297,-19.98618 -0.154297,-48.43164 0,-28.43957 -0.02303,-41.80773 0.154297,-48.42773 0.08866,-3.31 0.228686,-4.93387 0.441406,-5.89844 0.212719,-0.96456 0.492956,-1.27844 0.898437,-2.02343 0.929628,-1.70804 2.904626,-3.62997 4.742188,-4.60938 1.493459,-0.796 2.306868,-1.191 4.505859,-1.39844 2.198991,-0.20743 5.775367,-0.21679 12.728516,-0.21679 3.477631,0 6.639061,-0.0162 8.93164,-0.043 1.14629,-0.0134 2.075333,-0.0292 2.71875,-0.0469 0.321709,-0.009 0.572439,-0.0196 0.744141,-0.0293 0.08585,-0.005 0.150892,-0.0101 0.199219,-0.0156 0.02416,-0.003 0.04218,-0.005 0.0625,-0.01 0.01016,-0.002 0.02114,-0.004 0.03906,-0.0117 0.0045,-0.002 0.0095,-0.004 0.01563,-0.008 0.0061,-0.004 0.02114,-0.0173 0.02148,-0.0176 3.46e-4,-3.2e-4 0.02717,-0.0348 0.02734,-0.0352 1.74e-4,-3.2e-4 0.01758,-0.0641 0.01758,-0.0644 0,-0.54105 0.188346,-1.64173 0.457031,-2.78516 0.268685,-1.14343 0.61688,-2.33986 0.927734,-3.10156 2.629105,-6.44224 8.869003,-10.58594 15.945313,-10.58594 z"
+         id="path2739" />
+      <path
+         style="color:#000000;fill:#7bcb64;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 70.168812,-175.47312 -0.07031,9.71875 -0.06836,9.45703 -8.927734,0.0684 -9.189453,0.0703 v 10.58399 10.58203 l 9.193359,0.0703 8.929688,0.0684 v 9.21484 c 0,2.57061 0.02019,4.92674 0.05273,6.6543 0.01627,0.86378 0.03511,1.57038 0.05664,2.06836 0.01077,0.24899 0.02321,0.4458 0.03516,0.58594 0.006,0.0701 0.01262,0.12618 0.01953,0.16992 7.97e-4,0.005 0.0011,0.009 0.002,0.0137 l -0.0332,0.0391 0.08594,0.0859 c 7.71e-4,7.7e-4 0.02284,0.0186 0.03125,0.0234 0.0084,0.005 0.01531,0.007 0.02148,0.01 0.01234,0.005 0.0214,0.009 0.03125,0.0117 0.0197,0.005 0.03908,0.007 0.0625,0.01 0.04684,0.007 0.107008,0.0121 0.183594,0.0176 0.153172,0.011 0.370417,0.0222 0.644531,0.0312 0.54823,0.018 1.327566,0.031 2.28125,0.041 1.907369,0.02 4.511957,0.0229 7.355469,0.004 l 10.468746,-0.0703 0.0703,-9.58594 0.0684,-9.32422 8.927738,-0.0684 9.1914,-0.0703 v -10.58203 -10.58399 l -9.1914,-0.0703 -8.927738,-0.0684 -0.0684,-9.45703 -0.0703,-9.71875 H 80.752791 Z"
+         id="path2749" />
+      <path
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.752797,-201.13718 c 13.486905,0 19.760673,-0.028 22.865233,0.16015 1.55228,0.0941 2.30594,0.24283 2.76563,0.4629 0.45575,0.21817 0.6509,0.51826 1.08594,0.95507 1.38187,1.82913 1.86301,4.02212 1.46093,5.92774 -0.40245,1.90741 -1.67786,3.52584 -3.83984,4.23047 -0.0253,0.007 -0.11465,0.0225 -0.24219,0.0352 -0.12855,0.0128 -0.2982,0.0251 -0.50781,0.0371 -0.41922,0.0241 -0.99274,0.048 -1.69727,0.0684 -1.40906,0.0407 -3.342818,0.072 -5.624998,0.0977 -4.56435,0.0513 -10.52346,0.0732 -16.472657,0.0664 -5.943289,-0.007 -12.03469,-0.042 -16.638671,-0.10351 -2.301991,-0.0308 -4.232222,-0.0675 -5.585938,-0.11133 -0.676858,-0.0219 -1.20915,-0.0454 -1.570312,-0.0703 -0.180582,-0.0125 -0.318188,-0.0246 -0.40625,-0.0371 -0.04403,-0.006 -0.07724,-0.014 -0.08984,-0.0176 0,0 0.002,0.002 0.002,0.002 0.0053,0.003 0.01456,0.009 0.02734,0.0234 0.0064,0.007 0.01991,0.0321 0.01953,0.0312 -3.8e-4,-8.8e-4 0.01172,0.0517 0.01172,0.0508 h -0.265625 l 0.177734,-0.125 c -4.073987,-1.47431 -5.284284,-7.01649 -2.203125,-10.09765 0.443044,-0.44305 0.636016,-0.74283 1.095703,-0.96289 0.459688,-0.22007 1.215298,-0.36881 2.767578,-0.4629 3.10456,-0.18816 9.378329,-0.16015 22.865235,-0.16015 z"
+         id="path2747" />
+      <path
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.940297,-224.22703 c 1.740943,0.0178 3.417725,0.64517 4.861335,1.82813 3.26281,2.72737 3.38655,8.15157 0.25195,11.22656 -1.78959,1.30672 -3.700354,2.02116 -5.529301,2.05274 -1.832765,0.0316 -3.584781,-0.61547 -5.070312,-2.04493 -3.139753,-3.08043 -3.015537,-8.50305 0.248046,-11.23242 4.13e-4,-3.4e-4 -4.12e-4,-0.002 0,-0.002 1.696602,-1.25491 3.499402,-1.84586 5.238282,-1.82813 z"
+         id="path2743" />
+    </g>
+  </g>
+</svg>
