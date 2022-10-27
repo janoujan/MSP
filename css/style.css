@@ -152,7 +152,7 @@ label {
   display: none;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   .logo_svg {
     top: 0%;
   }
@@ -195,15 +195,16 @@ label {
   width: 90%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .logo {
-    margin-left: -4%;
+    margin-left: 0;
     z-index: 10;
   }
   .logo_svg {
     top: 0%;
-    width: 150%;
-    height: 150%;
+    left: -30%;
+    width: 100%;
+    height: 100%;
   }
   label {
     display: none;
@@ -295,7 +296,7 @@ label {
   box-shadow: 2px 4px 3px 2px rgba(21, 71, 69, 0.3843137255);
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   .presentation_figure {
     width: 65%;
     height: 450px;
@@ -305,7 +306,7 @@ label {
     height: 450px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .presentation_figure {
     width: 770px;
     height: 578px;
@@ -376,7 +377,7 @@ label {
   padding-top: 5px;
 }
 .profile_image-dentiste {
-  width: 23%;
+  width: 40%;
   height: 25%;
 }
 .profile_title {
@@ -407,12 +408,12 @@ label {
   font-size: 1.2rem;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   .profile {
     width: 40%;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .profile {
     width: 26%;
   }
@@ -630,12 +631,12 @@ label {
   font-size: 1.4rem;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   .map_frame {
     height: 400px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .map {
     width: 60%;
   }
@@ -761,7 +762,7 @@ h3.agenda_caption {
   font-size: 1.8rem;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   table {
     width: 760px;
     height: 300px;
@@ -834,14 +835,14 @@ h3.agenda_caption {
   margin-right: 10px;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   #irm {
     flex-direction: row;
     width: 85%;
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   #irm {
     flex-direction: row;
     width: 85%;
@@ -892,12 +893,12 @@ h3.agenda_caption {
   margin-left: 20px;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   .link_aside {
     width: 540px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   .link {
     display: flex;
     flex-direction: row;
@@ -920,12 +921,12 @@ h3.agenda_caption {
   border: 1px solid black;
 }
 
-@media (min-width: 770px) and (max-width: 1279px) {
+@media (min-width: 770px) and (max-width: 1079px) {
   #radio {
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   #radio {
     flex-direction: row;
   }
