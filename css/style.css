@@ -198,13 +198,12 @@ label {
 @media screen and (min-width: 1080px) {
   .logo {
     margin-left: 0;
-    z-index: 10;
   }
   .logo_svg {
     top: 0%;
     left: -30%;
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
   }
   label {
     display: none;
@@ -919,6 +918,28 @@ h3.agenda_caption {
   width: 80%;
   border-radius: 20px;
   border: 1px solid black;
+}
+.radio_link > a {
+  color: black;
+}
+
+.radio_link-hover {
+  height: 5px;
+  width: 70%;
+  background-color: black;
+  transform: scale(0);
+  transition: transform 400ms;
+}
+
+.radio_link a:hover + .radio_link-hover {
+  transform: scale(1);
+  transform-origin: left;
+}
+
+.radio_link a:active + .radio_link-hover {
+  transform: scale(1);
+  transform-origin: left;
+  background-color: #C0E4F0;
 }
 
 @media (min-width: 770px) and (max-width: 1079px) {

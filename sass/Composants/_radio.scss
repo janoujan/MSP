@@ -8,6 +8,35 @@
         border-radius: 20px;
         border: 1px solid black;
     }
+
+    &_link>a {
+        color: black;
+    }
+}
+
+// hover style
+
+.radio_link-hover {
+    height: 5px;
+    width: 70%;
+    background-color: black;
+    transform: scale(0);
+    transition: transform 400ms;
+}
+
+.radio_link a:hover {
+    +.radio_link-hover {
+        transform: scale(1);
+        transform-origin: left;
+    }
+}
+
+.radio_link a:active {
+    +.radio_link-hover {
+        transform: scale(1);
+        transform-origin: left;
+        background-color: $tertary_color;
+    }
 }
 
 @include tablet {
@@ -20,15 +49,9 @@
     #radio {
         flex-direction: row;
     }
+
     .radio {
         width: 33%;
         margin-bottom: 0;
     }
 }
-
-
-
-
-
-
-
