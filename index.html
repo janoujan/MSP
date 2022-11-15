@@ -75,9 +75,21 @@
     </header>
     <main>
       <div class="presentation">
-        <figure class="presentation_figure">
-          <img class="presentation_image" src="./images/msp_facade.jpg" alt="photo de La MSP Vabre Vals et Plateaux"></figure>
-        <div class="presentation_figcaption">Bienvenue à la <strong>Maison de Santé Pluridisciplinaire</strong>
+          <div class="presentation_caroussel">
+            <div class="slider">
+              <img  class="img__slider active" src="./images/msp_facade.jpg" alt="photo 1 de La MSP Vabre Vals et Plateaux"/>
+              <img  class="img__slider" src="./images/msp_facade-2.jpg" alt="photo 2 de La MSP Vabre Vals et Plateaux"/>
+              <img  class="img__slider" src="./images/msp_facade_3.jpg" alt="photo 3 de La MSP Vabre Vals et Plateaux"/>
+              <img  class="img__slider" src="./images/msp_facade_4.jpg" alt="photo 4 de La MSP Vabre Vals et Plateaux"/>
+              <div class="suivant">
+                <i class="fa-regular fa-circle-right"></i>
+              </div>
+              <div class="precedent">
+                <i class="fa-regular fa-circle-left"></i>
+              </div>
+            </div>
+          </div>
+          <div class="presentation_figcaption">Bienvenue à la <strong>Maison de Santé Pluridisciplinaire</strong>
           Vabre Vals et Plateaux, nous sommes situés au centre de Vabre<br>
           Ici, vous pouvez consulter des medecins generalistes, un kinésithérapeute, un dentiste, une pédicure -
           podologue, une sage-femme, une infirmiere ASALÉE et réaliser des soins à domicile sur rendez-vous.<br>
@@ -112,7 +124,7 @@
            <div class="profile">
              <img
                class="profile_image"
-               src="images/logo_medecin.svg"
+               src="images/Logo_medecin.svg"
                alt="logo de médecin généraliste"
              >
              <h3 class="profile_title">Docteur Etienne Cornu</h3>
@@ -271,6 +283,7 @@
         <span class="italic">cliquez sur le lien pour nous envoyer un mail</span>        
     </p>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
 
