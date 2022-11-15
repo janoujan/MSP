@@ -275,6 +275,7 @@ label {
 }
 .presentation_figure {
   width: 100%;
+  height: 250px;
 }
 .presentation_image {
   object-fit: fill;
