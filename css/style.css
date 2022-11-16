@@ -251,6 +251,7 @@ label {
     justify-content: center;
     align-items: center;
     margin-left: -35%;
+    z-index: 12;
   }
   .navigation_link {
     margin-top: -1%;
@@ -350,6 +351,9 @@ label {
   .presentation_figcaption {
     padding: 20px;
     text-align: center;
+  }
+  .slider img {
+    height: 100%;
   }
 }
 #team {
@@ -522,7 +526,7 @@ label {
   color: #1B0000;
   position: absolute;
   top: 300px;
-  left: 700px;
+  right: 100px;
   font-size: 0.9rem;
 }
 
