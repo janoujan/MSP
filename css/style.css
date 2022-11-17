@@ -536,7 +536,7 @@ label {
   position: absolute;
   top: 80%;
   right: 40px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 2450px) {
@@ -996,6 +996,9 @@ h3.agenda_caption {
 .link_aside_link {
   margin-left: 20px;
 }
+.link_aside_link a {
+  color: black;
+}
 
 @media (min-width: 770px) and (max-width: 1079px) {
   .link_aside {
@@ -1024,7 +1027,7 @@ h3.agenda_caption {
   border-radius: 20px;
   border: 1px solid black;
 }
-.radio_link > a {
+.radio_link a {
   color: black;
 }
 
