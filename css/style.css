@@ -283,7 +283,7 @@ label {
 .presentation_figcaption {
   width: 80%;
   padding: 4%;
-  margin-top: 120px;
+  margin-top: 20px;
   font-size: 1.2rem;
   font-weight: 900;
   background-color: #C0E4F0;
@@ -299,7 +299,7 @@ label {
 .slider img {
   object-fit: fit;
   width: 100%;
-  height: 450px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -414,6 +414,10 @@ label {
   width: 40%;
   height: 28%;
 }
+.profile_image-pharmacie {
+  border-radius: 50%;
+  width: 50%;
+}
 .profile_title {
   font-size: 1.8rem;
 }
@@ -431,6 +435,11 @@ label {
   font-style: oblique;
   font-size: larger;
   margin: 0;
+}
+.profile_telephone {
+  font-weight: 900;
+  font-style: oblique;
+  font-size: larger;
 }
 .profile_logo {
   border-radius: 20px;
@@ -525,8 +534,8 @@ label {
 .mention {
   color: #1B0000;
   position: absolute;
-  top: 300px;
-  right: 100px;
+  top: 80%;
+  right: 40px;
   font-size: 0.9rem;
 }
 

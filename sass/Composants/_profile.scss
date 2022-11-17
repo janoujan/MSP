@@ -25,7 +25,12 @@
             height: 28%;
         }
 
-        
+        &-pharmacie {
+         border-radius: 50%;
+         width: 50%;   
+        }
+
+
     }
 
     &_title {
@@ -50,6 +55,12 @@
         font-size: larger;
         margin: 0;
 
+    }
+
+    &_telephone {
+        font-weight: 900;
+        font-style: oblique;
+        font-size: larger;
     }
 
     &_logo {
