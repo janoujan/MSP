@@ -5,7 +5,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 60px;
     background-color: $tertary_color;
     border-radius: 20px;
@@ -23,9 +23,9 @@
         position: relative;
         height: 200px;
         width: 68%;
-        border: 2px $secondary_color solid;
+        border: 1px solid black;
         border-radius: 20px;
-        box-shadow: none;
+       
         
         &>iframe {
             left: 0;

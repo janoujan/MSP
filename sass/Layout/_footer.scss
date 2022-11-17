@@ -66,6 +66,15 @@
     font-size: 0.9rem;
 }
 
+@include ultraHD {
+    footer {
+        margin-top: 120px;
+    }
+    #footer_index {
+        margin-top: 10%;
+    }
+}
+
 
 
 

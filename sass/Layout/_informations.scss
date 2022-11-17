@@ -6,6 +6,12 @@
     font-size: 2rem;
 }
 
+.information {
+    &_figure {
+        background-color: $secondary_color;
+    }
+}
+
 
 
 

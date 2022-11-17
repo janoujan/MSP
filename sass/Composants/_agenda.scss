@@ -16,6 +16,7 @@
         margin-left: 20px;
         margin-top: 0;
         font-size: 1.4rem;
+        text-align: center;
     }
 
     &_solo {
@@ -50,6 +51,7 @@
         background-color: $tertary_color;
         box-shadow: 2px 4px 3px 2px #184f5f60;
         padding: 20px;
+        text-align: center;
     }
 
     &_mobile {
@@ -145,6 +147,7 @@ h3.agenda_caption {
 
     table {
         display: contents;
+        width: min-content;
     }
 }
 
