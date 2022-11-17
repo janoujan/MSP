@@ -127,7 +127,7 @@ header {
 label {
   position: relative;
   font-size: 2.5rem;
-  left: -15%;
+  left: 0%;
 }
 
 #toggle:checked + .navigation_link {
@@ -190,8 +190,7 @@ label {
   }
 }
 .navigation_link-hover {
-  margin: auto;
-  margin-left: -20%;
+  margin-left: -40%;
   width: 90%;
 }
 
@@ -416,7 +415,7 @@ label {
 }
 .profile_image-pharmacie {
   border-radius: 50%;
-  width: 50%;
+  width: 130px;
 }
 .profile_title {
   font-size: 1.8rem;
@@ -739,15 +738,32 @@ label {
   width: 100px;
   height: 100px;
 }
+.agenda_solo-image-pharmacie {
+  width: 150px;
+  border-radius: 50%;
+}
+.agenda_docteur {
+  width: 80%;
+  border-radius: 20px;
+  background-color: #C0E4F0;
+  box-shadow: 2px 4px 3px 2px rgba(24, 79, 95, 0.3764705882);
+  padding: 20px;
+}
+.agenda_mobile {
+  font-size: 1.5rem;
+  border-radius: 20px;
+  text-decoration: underline;
+}
 
 table {
   border-collapse: collapse;
-  overflow-x: auto;
+  overflow: scroll;
   border-radius: 20px;
   min-width: 760px;
   max-width: 760px;
   height: 350px;
   font-size: 1.4rem;
+  display: none;
 }
 
 td {
@@ -813,8 +829,19 @@ h3.agenda_caption {
   font-size: 1.8rem;
 }
 
+@media (min-width: 770px) and (max-width: 1079px) {
+  .agenda_mobile,
+.agenda_mobile + p,
+.agenda_docteur {
+    display: none;
+  }
+  table {
+    display: contents;
+  }
+}
 @media screen and (min-width: 1080px) {
   table {
+    display: contents;
     width: 760px;
     height: 300px;
     text-align: center;
@@ -826,6 +853,11 @@ h3.agenda_caption {
     align-items: center;
     margin: auto;
   }
+  .agenda_mobile,
+.agenda_mobile + p,
+.agenda_docteur {
+    display: none;
+  }
 }
 @media screen and (min-width: 2450px) {
   .agenda_solo {
@@ -833,6 +865,12 @@ h3.agenda_caption {
   }
   table {
     width: max-content;
+    display: contents;
+  }
+  .agenda_mobile,
+.agenda_mobile + p,
+.agenda_docteur {
+    display: none;
   }
 }
 #main_links {

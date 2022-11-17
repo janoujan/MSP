@@ -32,22 +32,42 @@
         font-size: 1.4rem;
 
         &-image {
-            &-dentiste{
-            width: 100px;
-            height: 100px;
+            &-dentiste {
+                width: 100px;
+                height: 100px;
+            }
+
+            &-pharmacie {
+                width: 150px;
+                border-radius: 50%;
+            }
         }
     }
+
+    &_docteur {
+        width: 80%;
+        border-radius: 20px;
+        background-color: $tertary_color;
+        box-shadow: 2px 4px 3px 2px #184f5f60;
+        padding: 20px;
+    }
+
+    &_mobile {
+        font-size: 1.5rem;
+        border-radius: 20px;
+        text-decoration: underline;
     }
 }
 
 table {
     border-collapse: collapse;
-    overflow-x: auto;
+    overflow: scroll;
     border-radius: 20px;
     min-width: 760px;
     max-width: 760px;
     height: 350px;
     font-size: 1.4rem;
+    display: none;
 }
 
 td {
@@ -115,9 +135,23 @@ h3.agenda_caption {
     font-size: 1.8rem;
 }
 
+@include tablet {
+
+    .agenda_mobile,
+    .agenda_mobile+p,
+    .agenda_docteur {
+        display: none;
+    }
+
+    table {
+        display: contents;
+    }
+}
+
 @include desktop {
 
     table {
+        display: contents;
         width: 760px;
         height: 300px;
         text-align: center;
@@ -128,6 +162,12 @@ h3.agenda_caption {
         width: 70%;
         @include center;
         margin: auto;
+    }
+
+    .agenda_mobile,
+    .agenda_mobile+p,
+    .agenda_docteur {
+        display: none;
     }
 }
 
@@ -141,5 +181,12 @@ h3.agenda_caption {
 
     table {
         width: max-content;
+        display: contents;
+    }
+
+    .agenda_mobile,
+    .agenda_mobile+p,
+    .agenda_docteur {
+        display: none;
     }
 }
