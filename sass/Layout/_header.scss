@@ -83,7 +83,9 @@ header {
 
 .navigation_link-hover {
     height: 5px;
-    width: 70%;
+    width: 90%;
+    position: relative;
+    left: 19%;
     background-color: black;
     transform: scale(0);
     transition: transform 400ms;
@@ -164,7 +166,7 @@ label {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            top: 40%;
+            top: 15%;
             left: -65%;
             width: 300%;
             height: 70%;
