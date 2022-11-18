@@ -61,14 +61,14 @@
 .mention {
     color: #1B0000;
     position: absolute;
-    top: 60%;
+    top: 70%;
     right: 40px;
     font-size: 1.2rem;
 }
 
 .mention > a {
     color: black;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 @include ultraHD {
