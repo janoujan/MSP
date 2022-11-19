@@ -109,6 +109,14 @@ header {
     }
 }
 
+.navigation_link a:active {
+    +.navigation_link-hover {
+        transform: scale(1);
+        transform-origin: left;
+        background-color: $primary_color;
+    }
+}
+
 label {
     position: relative;
     font-size: 2.5rem;
