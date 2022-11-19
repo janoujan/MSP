@@ -76,15 +76,17 @@ header {
             font-size: larger;
             font-weight: 900;
 
-            &:focus {
+            &:focus,
+            &:active {
                 width: 120%;
-                border: 2px solid rgb(109, 22, 22);
+                border: none;
 
             }
         }
 
-        &-container:focus {
-            border: 2px solid rgb(109, 22, 22);
+        &-container:focus,
+        &-container:active {
+            border: none;
             padding-left: 40px;
         }
     }
