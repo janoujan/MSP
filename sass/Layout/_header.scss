@@ -63,7 +63,7 @@ header {
         width: 100%;
         margin-top: 0;
         position: relative;
-        
+
 
         & a {
             width: 50%;
@@ -75,6 +75,17 @@ header {
             color: black;
             font-size: larger;
             font-weight: 900;
+
+            &:focus {
+                width: 120%;
+                border: 2px solid rgb(109, 22, 22);
+
+            }
+        }
+
+        &-container:focus {
+            border: 2px solid rgb(109, 22, 22);
+            padding-left: 40px;
         }
     }
 }
@@ -151,7 +162,7 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         &_title {
             font-size: 1.4rem;
             width: 100%;
@@ -160,7 +171,7 @@ label {
             padding-bottom: 10px;
             justify-content: center;
         }
-        
+
         &_link {
             display: flex;
             flex-direction: row;
@@ -190,8 +201,8 @@ label {
 
     .logo {
         margin-left: 0;
-        
-        
+
+
 
         &_svg {
             top: 0%;
@@ -221,7 +232,7 @@ label {
             padding-bottom: 10px;
             padding-left: 0%;
             justify-content: center;
-            
+
         }
 
         &_link {
@@ -233,7 +244,7 @@ label {
             height: 70%;
             top: 15%;
             right: 100%;
-            
+
             &>a {
                 height: max-content;
                 padding: 23px;
@@ -259,11 +270,11 @@ label {
         &_link {
             margin-top: -1%;
         }
-        
+
         &_link>a {
             font-size: 1.6rem;
             margin-top: 1%;
-        
+
             &:hover {
                 font-size: 1.6rem;
             }
