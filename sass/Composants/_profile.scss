@@ -17,7 +17,7 @@
     &_image {
         object-fit: contain;
         width: 100px;
-        height: 100px;
+        height: 150px;
         padding-top: 5px;
 
         &-dentiste {
@@ -32,6 +32,15 @@
 
         &-psycho {
             border-radius: 50%;
+        }
+
+        &-secretaire {
+            height: 120px;
+        }
+
+        &-sage-femme {
+            height: 190px;
+            margin-bottom: -10%;
         }
     }
 
@@ -79,6 +88,14 @@
 @include tablet {
     .profile {
         width: 40%;
+
+        &_image {
+            width: 100%;
+
+            &-psycho {
+                width: 40%;
+            }
+        }
     }
 }
 
