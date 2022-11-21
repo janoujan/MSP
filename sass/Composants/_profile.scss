@@ -26,13 +26,13 @@
         }
 
         &-pharmacie {
-         border-radius: 50%;
-         width: 110px;   
+            border-radius: 50%;
+            width: 110px;
         }
-        
-       &-psycho {
-        border-radius: 50%;
-       }
+
+        &-psycho {
+            border-radius: 50%;
+        }
     }
 
     &_title {
@@ -99,6 +99,7 @@
     .profile {
         height: auto;
         margin-bottom: 20px;
+        width: 20%;
 
         &_image {
             width: 150px;
