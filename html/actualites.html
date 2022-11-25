@@ -21,7 +21,7 @@
     <title>MSP Vabre Vals et Plateaux</title>
     <meta
       name="description"
-      content="Bienvenue sur le site de la maison de santé pluridisciplinaire de Vabre Vals et Plateaux. Ici vous trouverez des infos pratiques, une présentation de notre équipe et les Actualités de la MSP de Vabre." />
+      content="Infos pratiques, présentation et actualités de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux" />
 
     <!-- Open Graph data -->
     <meta
@@ -29,10 +29,10 @@
       content="Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://MSP-Vabre-Vals-et-Plateaux" />
-    <meta property="og:image" content="../images/logo.svg" />
+    <meta property="og:image" content="../images/logo_msp_final.svg" />
     <meta
       property="og:description"
-      content="Infos pratiques et Actualités de la Maison de Santé Pluridisciplinaire Vabre Vals et Plateaux" />
+      content="Bienvenue sur le site de la maison de santé pluridisciplinaire de Vabre Vals et Plateaux. Ici vous trouverez des infos pratiques, une présentation de notre équipe et les Actualités de la MSP de Vabre." />
 
     <!--normalize-->
     <link rel="stylesheet" href="../css/normalize.css" />
@@ -43,6 +43,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet" />
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -80,14 +81,14 @@
           </div>
           <div class="navigation_link-container">
             <a
-              href="./actualites.html"
+              href="actualites.html"
               aria-label="lien vers les actualites du site"
               >Actualités</a
             >
             <div class="navigation_link-hover"></div>
           </div>
           <div class="navigation_link-container">
-            <a href="liens.html" aria-label="lien vers les liens utiles"
+            <a href="./liens.html" aria-label="lien vers les liens utiles"
               >Liens</a
             >
             <div class="navigation_link-hover"></div>
@@ -96,41 +97,35 @@
       </nav>
     </div>
   </header>
-  <main class="mention_main">
-    <h1>Mentions Légales</h1>
-    <h2>RGPD:</h2>
-    <p>
-      ce site ne stocke aucune informations personnelles.<br />
-      Ce site utilise un cookie anonyme de google analytics pour analyser le
-      traffic
-    </p>
-    <h2>Création et hébergement</h2>
-    <p>
-      Ce site a été creer par "Reaction Webdesign"<br />
-      n° SIRET: 88 260 254 00022<br />
-      Adresse: 117 chemin de l'Albiguier<br />
-      81330 Vabre<br />
-      Contact: janoujan@laposte.net<br />
-      Téléphone: 07 82 06 46 53
-    </p>
-    <p>
-      Ce site est hebergé par "Hostinger"<br />
-      N° SIRET: 44765649700024<br />
-      Adresse: 143 Rue Emile Julien, 34070 Montpellier, France<br />
-      Contact: gdpr@hostinger.com<br />
-      Téléphone: 08 92 97 70 93
-    </p>
-    <h2>Propriétaire du site</h2>
-    <p>
-      Ce site appartient à SISA des Vals et Plateaux<br />
-      immatriculation au RCS: 818 946 840 RCS Castres<br />
-      Adresse: 5 place du maquis<br />
-      81330 Vabre<br />
-      Contact : mspvabre@gmail.com<br />
-      Téléphone: 05 63 50 40 18
-    </p>
+
+  <main>
+    <h2 id="actus_title">Actualités</h2>
+    <div class="information">
+      <article class="information_article">
+        <h3 class="information_title">Un site web pour la MSP</h3>
+        <h4 class="information_subtitle">Bienvenue sur le site de la MSP !</h4>
+        <p class="information_text">
+          Un site Web pour la Msp. Sur notre site vous trouverez les
+          informations de contact et les agendas de notre équipe.<br />
+          Des liens et numéros utiles ainsi que les Actualités relatives à la
+          maison de santé Pluridisciplinaire de Vabre Vals et Plateaux.<br />
+          Nous espérons que ce site vous sera utile et agréable !
+        </p>
+      </article>
+      <aside class="information_aside">
+        <figure class="information_figure">
+          <img
+            class="information_image"
+            src="../images/msp_facade.jpg"
+            alt="photo de la maison de santé" />
+          <figcaption class="information_caption">
+            La Maison de Santé Pluridisciplinaire de Vabre
+          </figcaption>
+        </figure>
+      </aside>
+    </div>
   </main>
-  <footer id="footer_links" class="footer">
+  <footer id="footer_actus" class="footer">
     <a href="../index.html" aria-label="lien vers la page d'Accueil">
       <img
         src="../images/logo_msp_final.svg"
@@ -155,7 +150,9 @@
       <span class="italic">cliquez sur le lien pour nous envoyer un mail</span>
     </p>
     <p class="mention">
-      <a href="./mentions.html" aria-label="liens vers les mentions légales"
+      <a
+        href="../html/mentions.html"
+        aria-label="liens vers les mentions légales"
         >Mentions légales</a
       >
     </p>
